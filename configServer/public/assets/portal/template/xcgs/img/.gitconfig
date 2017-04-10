@@ -1,0 +1,10 @@
+[user]
+	name = MMPlatform
+	email = ctbri2015
+[gui]
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[gui]
+	recentrepo = D:/moble/mm
