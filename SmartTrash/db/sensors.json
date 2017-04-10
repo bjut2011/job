@@ -1,0 +1,15 @@
+
+{
+	"_id" : ObjectId("57582691421aa955f9759fb3"),
+	"device_id" : ObjectId("575794af421aa9ee01000002"),
+	"icon" : NumberInt("10"),
+	"name" : "副蓄电池电压",
+	"order" : NumberInt("7"),
+	"sensorSign" : NumberInt("0"),
+	"sensorType" : NumberInt("1"),
+	"sensorUnit" : "V",
+	"tag" : "正常",
+	"time" : ISODate("2016-06-08T22:07:13.000+08:00"),
+	"updatetime" : 1466916173,
+	"value" : "25.60"
+}

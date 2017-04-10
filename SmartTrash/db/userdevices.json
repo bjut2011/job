@@ -1,0 +1,585 @@
+{
+	"_id" : ObjectId("57722647421aa9b7f2000001"),
+	"device_id" : "57713e5897139646c36bd58c",
+	"user_id" : "577200d2421aa9a644000001"
+},
+{
+	"_id" : ObjectId("5772264a421aa9b7f2000002"),
+	"device_id" : "57713e5f97139646c36bd5e6",
+	"user_id" : "577200d2421aa9a644000001"
+},
+{
+	"_id" : ObjectId("5774ba16421aa9bf49000001"),
+	"device_id" : "57713e75971396535500e9c1",
+	"user_id" : "577200d2421aa9a644000001"
+},
+{
+	"_id" : ObjectId("5779b4a5421aa95a57000001"),
+	"device_id" : "57713e5897139646c36bd58c",
+	"user_id" : "5779abb1421aa98ed1000004"
+},
+{
+	"_id" : ObjectId("5779b6f7421aa95a57000002"),
+	"device_id" : "57713e5f97139646c36bd5e6",
+	"user_id" : "5779abb1421aa98ed1000004"
+},
+{
+	"_id" : ObjectId("5779b6fa421aa93181000001"),
+	"device_id" : "57713e75971396535500e9c1",
+	"user_id" : "5779abb1421aa98ed1000004"
+},
+{
+	"_id" : ObjectId("5779b713421aa95a8d000002"),
+	"device_id" : "57713eb0971396535500eacf",
+	"user_id" : "5779abb1421aa98ed1000004"
+},
+{
+	"_id" : ObjectId("577a030b421aa922c2000001"),
+	"device_id" : "577a0051421aa922bc000002",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fbbe421aa92100000001"),
+	"device_id" : "577f1a91421aa98850000001",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fbc3421aa9e7df000001"),
+	"device_id" : "57746f08421aa998c4000001",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fbc6421aa9e7ec000002"),
+	"device_id" : "57723a2c421aa9c341000001",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fbca421aa91d1b000001"),
+	"device_id" : "57723a27421aa9c346000002",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fbce421aa91d1b000002"),
+	"device_id" : "57723a27421aa9c346000002",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fbd1421aa92116000001"),
+	"device_id" : "57723a22421aa9c343000001",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fbd3421aa91d24000002"),
+	"device_id" : "57723a1c421aa9c334000002",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fbd6421aa91d24000003"),
+	"device_id" : "57723a16421aa9c33a000001",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fbd9421aa91d24000004"),
+	"device_id" : "57723a16421aa9c33a000001",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fbe8421aa92100000002"),
+	"device_id" : "5771417d421aa97e73000004",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fbea421aa9e9d3000001"),
+	"device_id" : "5771416b421aa97e81000004",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fbeb421aa9ee95000002"),
+	"device_id" : "57714163421aa97e7b000005",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fbed421aa91d24000005"),
+	"device_id" : "5771415a421aa97e73000003",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fbf8421aa91d1b000003"),
+	"device_id" : "5771411f421aa97e85000007",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fc02421aa9ee95000003"),
+	"device_id" : "57723a32421aa9c337000002",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fc03421aa92100000003"),
+	"device_id" : "57723a0d421aa9c33d000001",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fc04421aa91d1b000004"),
+	"device_id" : "57723a06421aa9c337000001",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fc05421aa92116000002"),
+	"device_id" : "57714176421aa97e76000004",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fc06421aa91d12000002"),
+	"device_id" : "57714154421aa97e7b000004",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fc07421aa91d12000003"),
+	"device_id" : "57714147421aa97e70000004",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fc08421aa9e7ec000003"),
+	"device_id" : "5771413f421aa97e73000002",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fc0b421aa92116000003"),
+	"device_id" : "57714126421aa97e70000003",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fc0c421aa9ee95000004"),
+	"device_id" : "5771413f421aa97e73000002",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("5780fc19421aa92116000004"),
+	"device_id" : "5780c602421aa9e7ec000001",
+	"user_id" : "577a02ed421aa922c7000002"
+},
+{
+	"_id" : ObjectId("579ff634421aa9bec9000001"),
+	"device_id" : "57713e4397139646c36bd47e",
+	"user_id" : "579ff629421aa9beb1000001"
+},
+{
+	"_id" : ObjectId("57d76e12421aa955a8000002"),
+	"device_id" : "57c7a3e99713967b060de641",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("57d7ae63421aa951c7000004"),
+	"device_id" : "57d79b5f971396f7b468e62c",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("57e494ec421aa955a8000004"),
+	"device_id" : "57e4949f421aa955a8000003",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("57e494ef421aa955a8000005"),
+	"device_id" : "57e494ad421aa98d0c000001",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("57e494f1421aa951c7000005"),
+	"device_id" : "57e494bc421aa9beb7000003",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("57e494f9421aa98d0c000002"),
+	"device_id" : "57e494cd421aa9bec6000003",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("57e494fc421aa95169000006"),
+	"device_id" : "57e494da421aa95169000005",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("580eeb26421aa93778000003"),
+	"device_id" : "580eeb03421aa93778000002",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("5822d5f3421aa93778000005"),
+	"device_id" : "57e494ad421aa98d0c000001",
+	"user_id" : "5822d5d2421aa93768000002"
+},
+{
+	"_id" : ObjectId("5848fe34421aa93774000001"),
+	"device_id" : "5848fad7421aa9376b000001",
+	"user_id" : "579ff629421aa9beb1000001"
+},
+{
+	"_id" : ObjectId("5848feb1421aa93776000001"),
+	"device_id" : "5848fad7421aa9376b000001",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4422421aa9376e000004"),
+	"device_id" : "584a4409421aa93778000007",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4bf8421aa93765000007"),
+	"device_id" : "584a4bdc421aa93762000007",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4bfa421aa93762000008"),
+	"device_id" : "584a4bc8421aa93768000007",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4bfe421aa9377800000b"),
+	"device_id" : "584a4bb9421aa93776000008",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c00421aa93762000009"),
+	"device_id" : "584a4b56421aa93771000005",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c02421aa9376200000a"),
+	"device_id" : "584a4b37421aa93771000004",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c05421aa9377800000c"),
+	"device_id" : "584a4b24421aa93762000005",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c09421aa93768000008"),
+	"device_id" : "584a4b37421aa93771000004",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c0b421aa93765000008"),
+	"device_id" : "584a4b24421aa93762000005",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c0d421aa93768000009"),
+	"device_id" : "584a4b15421aa93778000009",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c0f421aa9376800000a"),
+	"device_id" : "584a4593421aa93774000004",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c12421aa93771000006"),
+	"device_id" : "584a457a421aa9376e000007",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c1a421aa93776000009"),
+	"device_id" : "584a4460421aa93776000002",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c1c421aa93771000007"),
+	"device_id" : "584a4483421aa93765000003",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c1e421aa93774000007"),
+	"device_id" : "584a4497421aa9376e000006",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c20421aa9377800000d"),
+	"device_id" : "584a44aa421aa93762000003",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c27421aa9376e000008"),
+	"device_id" : "584a44bb421aa93776000003",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c2a421aa9376200000b"),
+	"device_id" : "584a44cb421aa93776000004",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c2c421aa9376200000c"),
+	"device_id" : "584a44e3421aa93774000003",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c2e421aa9376b000005"),
+	"device_id" : "584a4514421aa9376b000003",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c30421aa9376200000d"),
+	"device_id" : "584a4523421aa93776000005",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584a4c3e421aa9376b000006"),
+	"device_id" : "584a4532421aa93765000005",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584e597e421aa93765000009"),
+	"device_id" : "584e58b1421aa9377600000b",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584e5980421aa9376e00000a"),
+	"device_id" : "584e58e1421aa9377800000e",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584e5982421aa9376e00000b"),
+	"device_id" : "584e5910421aa9376b000007",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584e5984421aa93762000011"),
+	"device_id" : "584e5960421aa9376e000009",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("584e5987421aa9376800000b"),
+	"device_id" : "584e596d421aa93762000010",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("585a1647421aa9376b000008"),
+	"device_id" : "57971195421aa98df7000002",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("5861af70421aa98424000002"),
+	"device_id" : "584a4514421aa9376b000003",
+	"user_id" : "5861af59421aa95321000001"
+},
+{
+	"_id" : ObjectId("5861c414421aa98424000003"),
+	"device_id" : "57e374ed971396a19c39c23d",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("586475dc421aa9841e000007"),
+	"device_id" : "586475cc421aa98421000003",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("586475e4421aa98421000004"),
+	"device_id" : "586475a9421aa9560c000006",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("586475ec421aa9841b000007"),
+	"device_id" : "5864759e421aa95609000009",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("586475f5421aa98421000005"),
+	"device_id" : "58647594421aa9376e000016",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647603421aa9376e000019"),
+	"device_id" : "5864758b421aa9841b000006",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647611421aa9532a000005"),
+	"device_id" : "5864758b421aa9841b000006",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("5864761f421aa9841b000008"),
+	"device_id" : "58647583421aa9376e000014",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647626421aa9841e000008"),
+	"device_id" : "58647579421aa98421000002",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647631421aa98421000006"),
+	"device_id" : "5864756f421aa9560c000004",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("5864763e421aa98424000008"),
+	"device_id" : "58647566421aa9532a000004",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647648421aa98424000009"),
+	"device_id" : "58647559421aa9376e000013",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647656421aa9376e00001a"),
+	"device_id" : "58647550421aa9841e000005",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("5864766b421aa9560c000008"),
+	"device_id" : "586474fe421aa95321000008",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647674421aa98421000007"),
+	"device_id" : "586474fe421aa95321000008",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("5864767a421aa98421000008"),
+	"device_id" : "586474ea421aa95609000005",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647b6e421aa9841b000009"),
+	"device_id" : "586474ea421aa95609000005",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647c11421aa9376e00001b"),
+	"device_id" : "586474d1421aa9376e00000f",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647c17421aa98421000009"),
+	"device_id" : "586474c7421aa9560c000003",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647c1f421aa9842100000a"),
+	"device_id" : "586474bb421aa95609000003",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647c3a421aa9560900000a"),
+	"device_id" : "586474b0421aa95321000007",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647c42421aa9532a000006"),
+	"device_id" : "586474a7421aa9841e000003",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647c50421aa9841b00000a"),
+	"device_id" : "58647490421aa98424000006",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647edb421aa9376e00001c"),
+	"device_id" : "58647462421aa9376e00000d",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647efa421aa9376e00001d"),
+	"device_id" : "5864746d421aa98424000005",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647f0c421aa9842100000d"),
+	"device_id" : "58647454421aa95321000004",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647f12421aa9376e00001e"),
+	"device_id" : "58647449421aa9841b000003",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("58647f1b421aa9560900000b"),
+	"device_id" : "5864742d421aa9532a000001",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("5864800f421aa9376e000020"),
+	"device_id" : "58647ff3421aa9532a000008",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("5865e3d2421aa9560c000009"),
+	"device_id" : "5864747d421aa95609000002",
+	"user_id" : "57d76de0421aa951c7000003"
+},
+{
+	"_id" : ObjectId("587ed47f421aa94379000005"),
+	"device_id" : "57e494ad421aa98d0c000001",
+	"user_id" : "577200d2421aa9a644000001"
+},
+{
+	"_id" : ObjectId("587ed493421aa94388000003"),
+	"device_id" : "579823f39713968c882098f5",
+	"user_id" : "577200d2421aa9a644000001"
+},
+{
+	"_id" : ObjectId("587ed4ab421aa94370000001"),
+	"device_id" : "584a4514421aa9376b000003",
+	"user_id" : "577200d2421aa9a644000001"
+},
+{
+	"_id" : ObjectId("587ed4be421aa9437e000003"),
+	"device_id" : "584a4593421aa93774000004",
+	"user_id" : "577200d2421aa9a644000001"
+},
+{
+	"_id" : ObjectId("587ed4c7421aa9437b000002"),
+	"device_id" : "584a4b15421aa93778000009",
+	"user_id" : "577200d2421aa9a644000001"
+},
+{
+	"_id" : ObjectId("587ed4f3421aa94381000003"),
+	"device_id" : "57713e4397139646c36bd47e",
+	"user_id" : "587ed453421aa94388000002"
+},
+{
+	"_id" : ObjectId("587ed4fd421aa9437b000003"),
+	"device_id" : "57713e5f97139646c36bd5e6",
+	"user_id" : "587ed453421aa94388000002"
+},
+{
+	"_id" : ObjectId("587ed50f421aa94370000002"),
+	"device_id" : "577f1a91421aa98850000001",
+	"user_id" : "587ed453421aa94388000002"
+},
+{
+	"_id" : ObjectId("587ed526421aa94388000004"),
+	"device_id" : "57e494ad421aa98d0c000001",
+	"user_id" : "587ed453421aa94388000002"
+},
+{
+	"_id" : ObjectId("587ed52e421aa94370000003"),
+	"device_id" : "584a4409421aa93778000007",
+	"user_id" : "587ed453421aa94388000002"
+},
+{
+	"_id" : ObjectId("587ed537421aa9437e000004"),
+	"device_id" : "584a4514421aa9376b000003",
+	"user_id" : "587ed453421aa94388000002"
+},
+{
+	"_id" : ObjectId("587ed53e421aa94381000004"),
+	"device_id" : "584a4532421aa93765000005",
+	"user_id" : "587ed453421aa94388000002"
+},
+{
+	"_id" : ObjectId("587ed548421aa94388000005"),
+	"device_id" : "584e58b1421aa9377600000b",
+	"user_id" : "587ed453421aa94388000002"
+},
+{
+	"_id" : ObjectId("587ed55c421aa9437b000004"),
+	"device_id" : "584a4460421aa93776000002",
+	"user_id" : "587ed453421aa94388000002"
+},

@@ -1,0 +1,45 @@
+{
+	"_id" : ObjectId("58a2612afc5f54b5da000007"),
+	"alarmType" : "val_above",
+	"alarmTypeDiv" : "34",
+	"contactId" : "586c64e8421aa9841b00000c",
+	"deviceId" : "57713e5297139646c36bd532",
+	"sensorId" : "57713e5297139646c36bd533",
+	"upperBoundC" : "34"
+},
+{
+	"_id" : ObjectId("58a6674efc5f549d0a000002"),
+	"alarmType" : "val_above",
+	"alarmTypeDiv" : "",
+	"contactId" : "5872efa3fc5f54225b000001",
+	"deviceId" : "58a65b6fe852d40d20885ac5",
+	"sensorId" : "58a665a5e852d40d20885acb",
+	"upperBoundC" : ""
+},
+{
+	"_id" : ObjectId("58a6676ffc5f549cf8000001"),
+	"alarmType" : "full",
+	"alarmTypeDiv" : "",
+	"contactId" : "5872efa3fc5f54225b000001",
+	"deviceId" : "58a65b6fe852d40d20885ac5",
+	"sensorId" : "58a665a5e852d40d20885acb",
+	"upperBoundC" : ""
+},
+{
+	"_id" : ObjectId("58b7b027fc5f54a98a0000d9"),
+	"alarmType" : "full",
+	"alarmTypeDiv" : "",
+	"contactId" : "58abf797fc5f5473a8000002",
+	"deviceId" : "58abe2a2fc5f54740b000001",
+	"sensorId" : "58abfa32aee52b6c2c2eec4c",
+	"upperBoundC" : ""
+},
+{
+	"_id" : ObjectId("58bd090efc5f547f5100005c"),
+	"alarmType" : "full",
+	"alarmTypeDiv" : "",
+	"contactId" : "58bd08f2fc5f5468cb00007b",
+	"deviceId" : "58abe2a2fc5f54740b000001",
+	"sensorId" : "58abfa32aee52b6c2c2eec4c",
+	"upperBoundC" : ""
+},
