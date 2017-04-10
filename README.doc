@@ -10,3 +10,6 @@
   
 4.proxy_msg
   接收设备信息后台服务，包括智能垃圾桶和智能放牧
+  
+5.configServer
+  IWIFI服务
