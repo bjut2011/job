@@ -1,0 +1,535 @@
+<style type="text/css">#content{position:absolute;width:350px;font-size:14px;font-family:"微软雅黑",Arial,Helvetica,STHeiti,"宋体";background-color:#fff}#navtitle{background:#F7F7F7;height:38px;line-height:35px}#navtitle .vcodehint{margin-left:25px}#content .content-msg{line-height:30px;margin-top:10px;margin-bottom:10px;padding-left:80px;height:30px}#content #vcode_msg_error{color:red;font-size:14px}#content .account-label{display:block;float:left;width:70px;padding-right:10px;text-align:right;color:#333}#content .basebackground{background-repeat:no-repeat}#content .clearfix{zoom:1}#content .clearfix:after{content:"\20";display:block;height:0;clear:both;visibility:hidden;overflow:hidden}#content .content-div{height:30px;margin-bottom:20px;line-height:40px}#content .content-input-vcode{width:43px;height:38px;border:1px solid #e6e6e6;border-bottom-color:#d9d9d9;margin-right:-1px;float:left}#content .del-img-sudoku{background:#F0F1F1 url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/Vcode/vcode_32401c6.gif) no-repeat 4px -41px;width:42px;height:40px;float:left;cursor:pointer}.content-div .account-img-vcode-sudoku{height:36px;width:110px;margin-left:80px;float:left}.content-div a{color:#1d61ad;cursor:pointer;text-decoration:none}.content-div .acount-link-vcode{font-size:12px}#content .content-vcode-sudoku{line-height:30px;margin-bottom:10px;margin-left:80px}.content-vcode-sudoku p{font-size:12px}.content-vcode-sudoku div{width:165px}.content-vcode-sudoku div a{width:43px;height:38px;border:1px solid #e6e6e6;border-bottom-color:#d9d9d9;margin:10px 10px 0 0;float:left;cursor:pointer}.content-vcode-sudoku div a:hover{border:1px solid #458cf0}.content-input-vcode{background-position:100px 100px}.img-sudoku-1{background-position:-4px -40px}.img-sudoku-2{background-position:-50px -40px}.img-sudoku-3{background-position:-97px -40px}.img-sudoku-4{background-position:-4px -85px}.img-sudoku-5{background-position:-50px -85px}.img-sudoku-6{background-position:-97px -85px}.img-sudoku-7{background-position:-4px -137px}.img-sudoku-8{background-position:-50px -137px}.img-sudoku-9{background-position:-97px -137px}.content-button{margin-left:80px}.vcode-button{height:34px;width:91px;cursor:pointer;border:0;margin-left:120px;background:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/Vcode/vcode_btn_98334ce.gif) no-repeat}.vcode-button-ok{background-repeat:no-repeat;background-position:0 -53px}.ipLocCont{-webkit-transition:right .3s ease-out;transition:right .3s ease-out}.ipLocCont .titleComm{pointer-events:none;white-space:nowrap;z-index:1001;padding:4px 8px;font-size:11px;line-height:18px;background:#494949;color:#fff;border-radius:2px;box-shadow:1px 1px 2px rgba(0,0,0,.1);position:absolute;right:26px}.ipLocCont .title{margin-right:8px}.ipLocCont .title:before{content:'';position:absolute;right:-8px;top:50%;margin-top:-8px;width:0;height:0;border-bottom:8px solid transparent;border-top:8px solid transparent;border-left:8px solid #494949}.ipLocCont .titleFailed{margin-right:2px}.ipLocCont .icon{width:26px;height:26px;overflow:hidden;background-color:#fff;text-align:center;cursor:pointer;line-height:26px;float:left;box-shadow:1px 2px 1px rgba(0,0,0,.15)}.ipLocCont .icon span{width:14px;height:14px;vertical-align:middle;display:inline-block;background:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/ipLocation/ipLocation_ac75181.png);background-size:76px,auto}@media only screen and (-webkit-min-device-pixel-ratio:2),(-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi){.ipLocCont .icon span{background:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/ipLocation/ipLocation2x_af2f977.png);background-size:76px,auto}}.ipLocCont .icon .normal{background-position:-28px 0}.ipLocCont .icon .success{background-position:-14px 0}.ipLocCont .icon .loading{background:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/new/loading_4a096ed.gif);background-size:14px 14px}@media only screen and (-webkit-min-device-pixel-ratio:2),(-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi){.ipLocCont .icon .loading{background:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/new/loading_4a096ed.gif);background-size:14px 14px}}.ipLoc-title-error{height:83px;border:1px solid #c4c7cc;font-size:13px;background-color:#FFF;padding-left:14px;padding-right:14px;line-height:30px;border:1px solid rgba(51,51,51,.2);box-shadow:2px 2px 2px 0 rgba(0,0,0,.2);border-top:0;border-left:0}.ipLoc-title-error .orignal-addr{position:relative;top:7px}.ipLoc-title-error #ipLocClose{position:relative;top:-6px;right:-5px}.ipLoc-title-error .addr-info{font-size:12px;color:#999}.ipLoc-title-error .jiucuo-inf{float:right;font-size:12px;color:#2e77e5;cursor:pointer;position:relative;bottom:9px}.ipLoc-title-error .normal{color:#656565}.ipLocTitle{height:30px;border:1px solid #c4c7cc;font-size:13px;background-color:#FFF;padding-left:14px;padding-right:7px;line-height:30px;cursor:pointer;border:1px solid rgba(51,51,51,.2);box-shadow:2px 2px 2px 0 rgba(0,0,0,.2);border-top:0;border-left:0}.ipLocTitle .normal,.ipLocTitle arrow{color:#656565}.ipLocTitle .address{color:#36C}.ipLocCloseCont{cursor:pointer}.ipLocClose{width:11px;height:10px;display:inline-block;margin-left:14px;background:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/ipLocation/ipLocation_ac75181.png);background-size:76px,auto;background-position:-60px 0}@media only screen and (-webkit-min-device-pixel-ratio:2),(-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi){.ipLocClose{background:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/ipLocation/ipLocation2x_af2f977.png);background-size:76px,auto;background-position:-60px 0}}.ipLocClose:hover{opacity:.6}.ipLocFooter{margin:auto;margin-top:-1px;width:18px;height:10px;background:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/ipLocation/ipLocation_ac75181.png);background-size:76px,auto;background-position:-43px 0}@media only screen and (-webkit-min-device-pixel-ratio:2),(-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi){.ipLocFooter{background:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/ipLocation/ipLocation2x_af2f977.png);background-size:76px,auto;background-position:-43px 0}}.noLoc{padding-right:14px}.input-iploc{color:#3385ff}.ui3-iploc-my-place-item{line-height:32px}.ui3-iploc-my-place-item:hover,.ui3-iploc-my-place-item.ui3-suggest-item-hover{cursor:pointer;background-color:#EBEBEB}.ui3-iploc-my-place-item b{padding-left:12px;float:left;line-height:32px}.ui3-iploc-my-place-item.other b{padding-left:17px}.ui3-iploc-my-place-item em{display:inline-block;width:15px;line-height:14px;height:14px;background:url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ui3/tools/tools_47a3ea9.png) no-repeat -30px -291px}.ui3-iploc-my-place-item span{color:#666;margin-left:13px;width:53px}.ui3-iploc-my-place-item a{vertical-align:middle;color:#999;margin-left:14px;text-decoration:none}.ui3-iploc-my-place-item i{float:right;font-style:normal;margin-right:5px}.ui3-iploc-my-place-action a{margin-left:5px}.ui3-iploc-my-place-inner i a:hover{color:#36c}.ui3-iploc-my-place-item .has-data{display:block;margin-left:105px;margin-right:70px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ui3-iploc-my-place-item.other .has-data{margin-left:44px}.ui3-iploc-my-place-item .has-data:hover{}.correct-inf-warper{height:189px;width:234px;border:1px solid #c4c7cc;font-size:13px;background-color:#FFF;padding-left:14px;padding-right:7px;line-height:30px;border:1px solid rgba(51,51,51,.2);box-shadow:2px 2px 2px 0 rgba(0,0,0,.2);border-top:0;border-left:0}.correct-inf-warper .correct-inf{padding-top:9px}.correct-inf-warper .correct-inf .warning{width:18px;height:18px;display:inline-block;background:url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ipLocation/iploc-correct-0_a4176f0.png);background:-webkit-image-set(url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ipLocation/iploc-correct-0_a4176f0.png) 1x,url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ipLocation/iploc-correct-2x-0_de44cac.png) 2x);background:-moz-image-set(url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ipLocation/iploc-correct-0_a4176f0.png) 1x,url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ipLocation/iploc-correct-2x-0_de44cac.png) 2x);background:-o-image-set(url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ipLocation/iploc-correct-0_a4176f0.png) 1x,url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ipLocation/iploc-correct-2x-0_de44cac.png) 2x);background:-ms-image-set(url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ipLocation/iploc-correct-0_a4176f0.png) 1x,url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ipLocation/iploc-correct-2x-0_de44cac.png) 2x);background-size:18px auto;position:relative;top:5px;background-position:0 -28px}.correct-inf-warper .correct-inf .inf{color:#333}.correct-inf-warper .right-addr{position:relative}.correct-inf-warper .right-addr input{padding:4px;width:175px;padding-right:20px;background-size:15px auto;padding-left:24px}.correct-inf-warper .right-addr input::-webkit-input-placeholder{font-size:13px}.correct-inf-warper .right-addr input::-moz-placeholder{font-size:13px}.correct-inf-warper .right-addr input::-ms-input-placeholder{font-size:13px}.correct-inf-warper .right-addr input::-moz-placeholder{font-size:13px}.correct-inf-warper .right-addr::before{content:'';display:block;position:absolute;width:15px;height:15px;background:url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ipLocation/rightLocSearch_d9d2685.png) no-repeat;top:7px;left:5px}.correct-inf-warper .orignal-addr span{color:#8c8c8c;display:block}.correct-inf-warper .orignal-addr .addr{position:relative;top:-7px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#333;font-size:14px}.correct-inf-warper .orignal-addr .faddr{position:relative;top:-16px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px;color:#b2b2b2}.correct-inf-warper .bt-groups{width:141px;margin:0 auto;position:relative;top:-16px}.correct-inf-warper .bt-groups button{width:64px;height:24px;border:0;cursor:pointer;border-radius:2px}.correct-inf-warper .bt-groups button.confrim{background:#3385ff;color:#FFF;margin-right:6px}.correct-inf-warper .bt-groups button.cancel{background:#FFF;color:#3385ff;border:1px #dfdfdf solid}.iploc-pCorrect-marker.animation{-webkit-animation:pCorrectMarker-raise .5s;animation:pCorrectMarker-raise .5s}@keyframes pCorrectMarker-raise{from{-webkit-transform:translateY(0);transform:translateY(0)}50%{-webkit-transform:translateY(-6px);transform:translateY(-6px)}80%{-webkit-transform:translateY(3px);transform:translateY(3px)}90%{-webkit-transform:translateY(-2px);transform:translateY(-2px)}to{-webkit-transform:translateY(0);transform:translateY(0)}}@-webkit-keyframes pCorrectMarker-raise{from{-webkit-transform:translateY(0);transform:translateY(0)}50%{-webkit-transform:translateY(-6px);transform:translateY(-6px)}80%{-webkit-transform:translateY(3px);transform:translateY(3px)}90%{-webkit-transform:translateY(-2px);transform:translateY(-2px)}to{-webkit-transform:translateY(0);transform:translateY(0)}}#mapType{position:absolute;bottom:0;right:0;height:80px;cursor:pointer;-webkit-transition-property:width,background-color;transition-property:width,background-color;-webkit-transition-duration:.4s;transition-duration:.4s;width:110px;background-color:rgba(255,255,255,0)}#mapType:hover{width:298px;background-color:#fff;background-color:rgba(255,255,255,.8)}#mapType:hover .mapTypeCard{border:1px solid rgba(255,255,255,0);background-image:url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/new/maptype_8a68f95.png)}#mapType:hover .mapTypeCard.active{border:1px solid #3385FF}#mapType:hover .normal{right:202px}#mapType:hover .satellite,#mapType:hover .earth{right:106px}@media only screen and (-webkit-min-device-pixel-ratio:2),(-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi){#mapType:hover .mapTypeCard{background-image:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/new/maptype2x_54247ab.png)}}#mapType .mapTypeCard{height:60px;width:86px;position:absolute;border-radius:2px;top:10px;box-sizing:border-box;border:1px solid transparent;border:1px solid rgba(153,153,153,.42);background:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/new/shadow_6bf0ecd.png) no-repeat 0 0;background-size:86px 240px;-webkit-transition-property:right,background-image;transition-property:right,background-image;-webkit-transition-duration:.4s;transition-duration:.4s}#mapType .mapTypeCard span{position:absolute;bottom:0;right:0;display:inline-block;padding:3px 3px 2px 4px;font-size:12px;height:12px;line-height:12px;color:#FFF;border-top-left-radius:2px}#mapType .mapTypeCard.active span,#mapType .mapTypeCard:hover span{background-color:#3385FF}#mapType .mapTypeCard:hover{border:1px solid #3385FF}#mapType .normal{z-index:1;background-position:0 0;right:20px}#mapType .normal .switch-box p{margin-left:20px}#mapType .normal .switch-box input.switch{left:5px}#mapType .normal:hover .switch-box{visibility:visible}#mapType .satellite,#mapType .earth{right:15px;z-index:2;background-position:0 -60px}#mapType .satellite:hover .switch-box,#mapType .earth:hover .switch-box{visibility:visible}#mapType .earth{background-position:0 -181px}#mapType .panorama{z-index:3;right:10px;background-image:url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/new/maptype_8a68f95.png);background-position:0 -121px;border-left:1px solid rgba(153,153,153,.6)}@media only screen and (-webkit-min-device-pixel-ratio:2),(-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi){#mapType .panorama{background-image:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/new/maptype2x_54247ab.png)}}#mapType .switch-box{visibility:hidden;position:absolute;width:100%;height:20px;line-height:22px;color:#fff;background:rgba(0,0,0,.5)}#mapType .switch-box p{display:inline-block;margin-left:25px}#mapType .switch-box input.switch{position:absolute;left:8px;top:4px;cursor:pointer}@charset "UTF-8";.ui3-control-shadow{}.ui3-tool-collection-wrap{border:1px solid #c4c7cc;background-color:#fff}.ui3-tool-collection{display:inline-block;width:47px;height:24px;line-height:24px}.ui3-tool-collection em{width:11px;height:11px;background-image:url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ui3/tools/tools_47a3ea9.png);background-position:0 -316px;margin-left:5px;margin-right:4px}.ui3-tool-collection:hover em{background-position:-11px -316px}.ui3-tool-collection-wrap a{color:#666}.ui3-tool-collection-wrap ul{display:none;height:0;overflow:hidden;position:absolute;top:-1px;left:-58px;border:1px solid #c4c7cc;width:50px;background-color:#fff}.ui3-tool-collection-wrap li a{display:block;height:24px;line-height:24px;border-bottom:1px solid #e9eaec;text-decoration:none}.ui3-tool-collection-wrap em{background-image:url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ui3/tools/tools_47a3ea9.png);display:inline-block;vertical-align:middle}.ui3-tool-collection-wrap a span{vertical-align:middle}.ui3-tool-collection-wrap a:hover span{color:#0C88E8}.ui3-tool-collection-wrap .ui3-1 em{width:7px;height:11px;margin-left:8px;margin-right:6px;background-position:-10px -177px}.ui3-tool-collection-wrap .ui3-1:hover em{background-position:-59px -177px}.ui3-tool-collection-wrap .ui3-2 em{width:12px;height:12px;margin-left:6px;margin-right:3px;background-position:-31px -177px}.ui3-tool-collection-wrap .ui3-2:hover em{background-position:-80px -177px}.ui3-tool-collection-wrap .ui3-3 em{width:7px;height:12px;margin-left:8px;margin-right:6px;background-position:0 -304px}.ui3-tool-collection-wrap .ui3-3:hover em{background-position:-7px -304px}.ui3-tool-collection-wrap .ui3-4 em{width:12px;height:12px;margin-left:5px;margin-right:4px;background-position:-31px -200px}.ui3-tool-collection-wrap .ui3-4:hover em{background-position:-80px -200px}.ui3-tool-collection-wrap .ui3-5{border-bottom:0}.ui3-tool-collection-wrap .ui3-5 em{width:12px;height:12px;margin-left:5px;margin-right:5px;background-position:-7px -200px}.ui3-tool-collection-wrap .ui3-5:hover em{background-position:-56px -200px}.ui3-control-color:hover{color:#0c88e8}.ui3-control-color{color:#666;text-decoration:none}.ui3-control-color em,.ui3-control-color span{display:inline-block;vertical-align:middle;letter-spacing:-1px}.ui3-full-screen{width:47px;height:24px;border:1px solid #c4c7cc;background-color:#fff;line-height:24px;display:inline-block}.ui3-full-screen em{height:11px;width:11px;margin-left:6px;margin-right:4px;background-image:url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ui3/tools/tools_47a3ea9.png);background-position:-6px -8px}.ui3-full-screen:hover em{background-position:-17px -8px}.exit-fullscreen{width:47px;height:26px;background-position:-73px -265px}.ui3-traffic-st-wrap{border:1px solid #c4c7cc;background-color:#fff}.ui3-traffic-st{width:47px;height:24px;line-height:24px;display:inline-block}.ui3-traffic-st:hover em{background-position:-14px -150px}.ui3-traffic-st em{height:14px;width:7px;margin-left:7px;margin-right:7px;background-image:url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ui3/tools/tools_47a3ea9.png);background-position:-7px -150px}.trafficStTool-click em{background-position:-14px -150px}.ui3-street-view{display:inline-block;width:45px;padding:1px;text-decoration:none;border:1px solid #9B9EA4;background-color:#fff}.ui3-street-view-top{height:26px;background-image:url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ui3/tools/tools_47a3ea9.png);background-position:0 -327px}.ui3-street-view-bottom{color:#666;text-align:center;height:16px;line-height:16px;_line-height:18px}.ui3-street-view:hover{zoom:1}.ui3-street-view:hover .ui3-street-view-bottom{background-color:#0c88e8;color:#fff}.streetViewTool-click .ui3-street-view-bottom{background-color:#0c88e8;color:#fff}.clearfixs:after{display:block;clear:both;content:” “;visibility:hidden;height:0}.ui3-control-wrap{box-sizing:border-box;position:relative}.ui3-control-wrap #ui3_city_change{display:inline-block;float:left;border-radius:2px}.ui3-control-wrap .ui3-city-change-inner{float:left;display:inline-block;padding-right:12px;height:34px;line-height:34px;background-color:#fff;color:#666;font-size:12px;text-decoration:none;vertical-align:middle;position:relative}.ui3-control-wrap .ui3-city-change-inner em{width:7px;height:7px;margin-left:5px;float:left;margin-top:13px;background-image:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/ui3/tools/newtools_9ddbaad.png);background-repeat:no-repeat;background-position:-13px -17px}.ui3-control-wrap .ui3-city-change-inner span{font-size:12px;float:left}.ui3-control-wrap .ui3-city-change-inner:hover{color:#0C88E8}.ui3-control-wrap .ui3-city-change-inner:hover em{border-top-color:#0C88E8}.ui3-control-wrap .ui3-city-change-click .ui3-city-change-inner em,.ui3-control-wrap .ui3-city-change-click-close .ui3-city-change-inner em{background-position:-12px -177px}.ui3-control-wrap .ui3-blue,.ui3-control-wrap .ui3-blue span{color:#0C88E8}.ui3-control-wrap #ui3_city_change .adjustpadding{float:left;width:5px;height:34px;border-radius:2px 0 0 2px;padding-left:7px;background:#fff}.ui3-control-wrap #weather img{width:16px;height:16px;padding-top:8px;margin-right:6px}.ui3-control-wrap #weather{display:inline-block;line-height:17px;height:34px;background-color:#fff;text-decoration:none;vertical-align:middle;float:left}.ui3-control-wrap .left,.ui3-control-wrap .right{height:34px;background:#fff;border-radius:0 2px 2px 0}.ui3-control-wrap .left b,.ui3-control-wrap .right b{float:left;height:21px;display:inline-block;border-right:1px solid #eee;top:7px;position:relative}.ui3-control-wrap .left span,.ui3-control-wrap .right span{float:left;height:34px;width:29px;background-image:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/ui3/tools/newtools_9ddbaad.png);background-repeat:no-repeat}.ui3-control-wrap .left span.active,.ui3-control-wrap .right span.active{background-color:#fff}.ui3-control-wrap i{float:left;font-size:12px;font-style:normal;height:34px;line-height:34px;display:inline-block}.ui3-control-wrap i.active{color:#579AFC}.ui3-control-wrap .trafficopt:hover .traffic{background-position:1px -49px}.ui3-control-wrap .trafficopt:hover i{color:#579AFC}.ui3-control-wrap .trafficopt{padding-right:12px;line-height:34px;float:left;display:inline-block;cursor:pointer}.ui3-control-wrap .trafficopt.disabled{cursor:default;color:#bbb}.ui3-control-wrap .trafficopt.disabled .traffic{background-position:-77px -209px}.ui3-control-wrap .trafficopt.disabled:hover .traffic{background-position:-77px -209px}.ui3-control-wrap .trafficopt.disabled:hover i{color:#bbb}.ui3-control-wrap .traffic{background-position:1px -114px}.ui3-control-wrap .traffic.active{background-position:1px -49px}.ui3-control-wrap .boxopt:hover .boxutils{background-position:-34px -48px}.ui3-control-wrap .boxopt:hover .boxtext{color:#579AFC}.ui3-control-wrap .boxopt{padding-right:12px;line-height:34px;float:left;cursor:pointer;display:inline-block}.ui3-control-wrap .boxopt em{width:7px;height:7px;float:left;margin-top:13px;margin-left:5px;background-image:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/ui3/tools/newtools_9ddbaad.png);background-repeat:no-repeat;background-position:-13px -17px}.ui3-control-wrap .boxopt em.active{background-position:-12px -177px}.ui3-control-wrap .boxutils{padding-right:7px;background-position:-34px -116px}.ui3-control-wrap .boxutils.active{background-position:-34px -48px}.ui3-control-wrap .map-measure:hover .measure{background-position:-80px -49px}.ui3-control-wrap .map-measure:hover i{color:#579AFC}.ui3-control-wrap .map-mark:hover .mark{background-position:-40px -168px}.ui3-control-wrap .map-mark:hover i{color:#579AFC}.ui3-control-wrap .map-share:hover .share{background-position:-163px -51px}.ui3-control-wrap .map-share:hover i{color:#579AFC}.ui3-control-wrap .detail-box{position:absolute;width:86px;background:#fff;box-shadow:1px 2px 1px rgba(0,0,0,.15);top:34px;right:0;float:left;display:none;z-index:80000}.ui3-control-wrap .boxinfo{list-style-type:none}.ui3-control-wrap .boxinfo li{box-sizing:border-box;width:100%;cursor:pointer;height:34px;line-height:34px;padding-left:7px}.ui3-control-wrap .boxinfo li i{margin-left:2px}.ui3-control-wrap .boxinfo li .measure{background-position:-80px -117px}.ui3-control-wrap .boxinfo li .measure.active{background-position:-80px -49px}.ui3-control-wrap .boxinfo li .mark{background-position:-80px -168px}.ui3-control-wrap .boxinfo li .mark.active{background-position:-40px -168px}.ui3-control-wrap .boxinfo li .share{background-position:-163px -117px}.ui3-control-wrap .boxinfo li .share.active{background-position:-163px -51px}.ui3-control-wrap .boxinfo li.disabled{color:#bbb;cursor:default}.ui3-control-wrap .boxinfo li.disabled .measure{background-position:-42px -209px}.ui3-control-wrap .boxinfo li.disabled .mark{background-position:-1px -209px}.ui3-control-wrap .boxinfo li.disabled:hover .measurea{background-position:-42px -209px}.ui3-control-wrap .boxinfo li.disabled:hover i{color:#bbb}.ui3-control-wrap .last{border:0!important}.smp-content label{color:#333;padding-left:18px;position:relative}.smp-content .smp-field{margin:30px auto;text-align:center}.smp-content .label-home{position:absolute;left:0;top:-1px;width:13px;height:14px;background:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/ui3/tools/suggestion-icon_013979b.png) no-repeat 0 -40px}.smp-content .label-company{position:absolute;left:0;top:-1px;width:13px;height:14px;background:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/ui3/tools/suggestion-icon_013979b.png) no-repeat 0 -26px}.smp-content .smp-input{height:24px;width:212px;padding:0 10px;border:1px solid #d5d8dc;line-height:24px}.smp-content .smp-btns{text-align:center}.smp-content .smp-btns button{position:static;z-index:auto;top:auto;right:auto;border:1px solid #d5d8dc;background:#f8f9fc;width:88px;height:26px;cursor:pointer}.smp-content .smp-btns button:first-child{margin-right:10px}.smp-popup #popup_close{width:15px;height:14px;background:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/ui3/popup_close_aa06bc7.png) no-repeat 0 0;top:9px;right:8px}.tip-warper .my-tip{height:20px;position:absolute;padding-top:8px}.tip-warper .my-tip .title{height:20px;width:27px;background:#000;padding:3px 9px;color:#fff;opacity:.7;line-height:20px;text-align:center}.tip-warper .arrow{position:absolute;width:0;height:0;border-style:solid;border-width:0 5px 6px;opacity:.7;border-color:transparent transparent #000}.tip-warper .top{left:50%;margin-left:-5px;top:2px}#message-panel .message-close{width:24px;height:23px;top:0;right:0;position:absolute;background:url(/static/images/op-close.png) no-repeat right 0;cursor:pointer}#message-panel .message-close:hover{background-position:0 0}#op-activity{background:#fff;padding:12px;overflow:hidden;width:333px;position:relative}#op-activity .qrcode-container{float:left;line-height:20px;height:95px;width:75px;margin-right:8px;text-align:center}#op-activity .activity-banner{overflow:hidden}@media only screen and (-webkit-min-device-pixel-ratio:2),(-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi){#message-panel .message-close{background-image:url(/static/images/retina/op-close.png);background-size:auto 23px}}.moContainer{overflow:hidden;width:660px;position:relative}.moContainerSuccess{width:660px;position:relative}.pc .moContainer{font-family:'Microsoft YaHei'}.moLeft{padding:5px 5px 0;float:left}.dimensionalCode{position:absolute;width:130px;height:130px;right:30px;bottom:78px}.pc .dimensionalCodeTi{font-family:Arial,Helvetica,SimSun,sans-serif}.dimensionalCodeTip{position:absolute;font-size:12px;color:#999;right:35px;bottom:64px;line-height:20px}.moCenterTipImg{position:absolute;left:101px;top:98px;background-image:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/pcmoindex_4102034.png);background-position:0 -86px;width:23px;height:23px}.moSmsMethod{float:left;padding:0 22px 0 40px;width:158px}.moCodeMethod{float:left;padding:0 30px;border-left:#f2f2f2 1px solid}.moWebMethod{float:left;padding:0 40px 0 22px;width:158px}.moSmsNo{padding:18px 0 0}.moSmsInput{vertical-align:middle;width:153px;height:24px;border:#e6e6e6 2px solid;font-size:12px;color:#666;line-height:24px}.moSmsBtnContainer{padding:10px 0 0}.moSmsBtn{display:block;background-image:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/pcmoindex_4102034.png);background-position:-35px -69px;width:68px;height:33px}.moSmsBtn:hover{display:block;background-image:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/pcmoindex_4102034.png);background-position:-104px -69px;width:68px;height:33px}.moMethodImg{padding:13px 0 0;text-align:center}.moBackBtn{position:absolute;right:152px;bottom:24px;background-image:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/pcmoindex_4102034.png);background-position:-18px -69px;width:16px;height:16px}.moBtnCur{display:inline-block;background-image:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/pcmoindex_4102034.png);background-position:-2px -109px;width:6px;height:6px}.moBtnUnCur{display:inline-block;background-image:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/pcmoindex_4102034.png);background-position:-14px -109px;width:6px;height:6px}.moPptBtnContainer{float:right;padding:0 15px 0 0}.moverifycode{width:94px;vertical-align:middle;border:#e6e6e6 2px solid;height:24px;font-size:12px;color:#666;line-height:24px}.moSmsBtnContainer img{vertical-align:middle;width:43px;height:28px;margin-left:5px}.errorTip{color:#e60012}.moImgContainer{padding:38px 0 0 10px;width:143px;overflow:hidden}.moRight{float:left;padding:50px 0 0}.moTitle{font-size:30px;color:#333}.moSlogan{padding:10px 0 20px;font-size:18px;color:#74a2f2}.moLeft img{width:255px;height:398px;display:block}.moRecContentList{width:220px;max-height:118px;min-height:75px;font-size:13px;color:#777;line-height:20px;padding-left:5px;overflow:hidden}.moRecContentList em{float:left;display:inline-block;height:5px;width:5px;background:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/pcmoindex_4102034.png) 0 -121px;position:relative;top:8px}.moRecContentList div{margin-left:10px}.andriodDownload{padding:16px 0 0;position:relative;width:127px}.andriodVersion{position:absolute;top:14px;right:-1px;width:25px;height:26px;z-index:20}.andriodDownloadBtn{display:block;background-image:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/pcmoindex_4102034.png);background-position:-1px -1px;width:127px;height:33px}.andriodDownloadBtn:hover{display:block;background-image:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/pcmoindex_4102034.png);background-position:-129px -1px;width:127px;height:33px}.pc .moTextTip{font-family:Arial,Helvetica,SimSun,sans-serif}.moTextTip{font-size:12px;color:#999;line-height:24px}.moTextTip a{text-decoration:none}.moTextTip a:hover{text-decoration:underline}.iphoneDownload{padding:15px 0 0;position:relative;width:127px}.iphoneVersion{position:absolute;top:13px;right:-1px;width:25px;height:26px;z-index:20}.iphoneDownloadBtn{display:block;background-image:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/pcmoindex_4102034.png);background-position:-1px -35px;width:127px;height:33px}.iphoneDownloadBtn:hover{display:block;background-image:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/pcmoindex_4102034.png);background-position:-129px -35px;width:127px;height:33px}.moGoBtn{position:absolute;right:24px;bottom:-29px;background-image:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/pcmoindex_4102034.png);background-position:-1px -69px;width:16px;height:16px}.moContainer .moGoBtn{bottom:27px}.moContainer .moGoBtnTip{bottom:27px}.pc .moGoBtnTip{font-family:Arial,Helvetica,SimSun,sans-serif}.moGoBtnTip{position:absolute;right:52px;bottom:-29px;font-size:12px;color:#e6e6e6}.moGoBtnTip a{text-decoration:none;color:#3d6dcc}.moGoBtnTip a:hover{text-decoration:underline;color:#3d6dcc}.moCenter{font-size:30px;color:#333;text-align:center;padding:45px 0 0}.moCenterTip{padding:11px 0 38px 131px;font-size:13px;color:#999}.moCenterTip a{text-decoration:none}.moCenterTip a:hover{text-decoration:underline}.moCenterTipImg{position:absolute;left:101px;top:98px;background-image:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/pcmoindex_4102034.png);background-position:0 -86px;width:23px;height:23px}.moSmsMethod{float:left;padding:0 22px 0 40px;_padding:0 22px 0 40px;width:158px}.moWebMethod{float:left;padding:0 40px 0 22px;_padding:0 40px 0 22px;width:158px}.moMethodFirstLine{font-size:13px;color:#666;line-height:20px}.moMethodFirstLine .moMethodSpan{color:#74a2f2}.moMethodFirstLine .moMethodTip{color:#999}.moSmsNo{padding:18px 0 0}.moSmsInput{vertical-align:middle;width:153px;height:24px;border:#e6e6e6 2px solid;font-size:12px;color:#666;line-height:24px}.moSmsBtnContainer{padding:10px 0 0}.moMethodImg{padding:13px 0 0;text-align:center}.moBackBtn{position:absolute;right:152px;bottom:24px;background-image:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/pcmoindex_4102034.png);background-position:-18px -69px;width:16px;height:16px}.moPptContainer{width:2000px}.moPptContainer li{float:left}.moverifycode{width:94px;vertical-align:middle;border:#e6e6e6 2px solid;height:24px;font-size:12px;color:#666;line-height:24px}.errorTip{color:#e60012}.starBg{padding-right:5px;width:250px;height:395px}.moDownloadMethod{padding-left:73px}.pc .ui3-suggest-wrap{font-family:Arial,Helvetica,"Microsoft YaHei",sans-serif}#ui3-suggest-scroll{width:100%;overflow-y:auto;overflow-x:hidden}.ui3-suggest-wrap{position:absolute;background-color:#fff;border-top:1px solid #E4E6E7;display:none;box-shadow:1px 2px 1px rgba(0,0,0,.15);border-radius:0 0 2px 2px}.ui3-suggest-wrap .ui3-suggest-item a{display:block;height:35px;line-height:35px;padding-right:10px;text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ui3-suggest-wrap .ui3-suggest-item i{padding-left:39px;font-style:normal;color:#666;position:relative;z-index:1;padding-top:1px}.ui3-suggest-wrap .ui3-suggest-item i.history{background:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/ui3/tools/suggestion-icon_013979b.png) no-repeat 12px 2px}.ui3-suggest-wrap .ui3-suggest-item i.default{background:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/ui3/tools/suggestion-icon_013979b.png) no-repeat 12px -12px}.ui3-suggest-wrap .ui3-suggest-item i.home{background:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/ui3/tools/suggestion-icon_013979b.png) no-repeat 12px -40px}.ui3-suggest-wrap .ui3-suggest-item i.company{background:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/ui3/tools/suggestion-icon_013979b.png) no-repeat 12px -26px}.ui3-suggest-wrap .ui3-suggest-item em{margin-left:10px;margin-right:20px;font-style:normal;color:#999}.ui3-suggest-wrap .clear-history{border-top:1px solid #F2F5F8;overflow:hidden}.ui3-suggest-wrap .clear-history .clear-link{height:35px;line-height:35px;text-decoration:none;color:#B2B2B2;float:right;padding:0 10px}.ui3-suggest-wrap .clear-history .clear-link:hover{background-color:#EBEBEB}.ui3-suggest-wrap .clear-history .clear-login-link:hover{text-decoration:underline}.ui3-suggest-wrap .clear-history .clear-login{height:35px;line-height:35px;float:left;color:#333;display:none}.ui3-suggest-wrap .clear-history .clear-login-link{text-decoration:none;color:#3385ff;padding:0 5px 0 30px;background:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/unloginSug_e5196cc.gif) no-repeat 10px 5px;float:left;height:35px}.ui3-suggest-item-hover a,.ui3-suggest-item:hover a{background-color:#EBEBEB}.ui3-suggest-item-hover em,.ui3-suggest-item:hover em{color:#888}.ui3-suggest-wrap strong{color:#999;float:right;margin-right:15px;display:none;position:relative;z-index:2}.ui3-suggest-item-hover strong{display:block}.ui3-suggest-item-hover strong:hover{color:#666}.city-special-container{width:100%;border-bottom:1px solid #e0e0e0;text-align:center;padding:15px 10px 0;box-sizing:border-box;font-size:12px;color:#666}.pc .city-special-container{font-family:Arial,Helvetica,"Microsoft YaHei",sans-serif}.city-special-list{overflow:hidden;height:24px;padding-bottom:10px;border-bottom:1px solid #eee}.city-special-list .city-special-item{text-align:center;display:inline-block;position:relative;width:32%;box-sizing:border-box;overflow:hidden;cursor:pointer}.city-special-list .city-list-item{height:24px;background:url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/new/searchbox_f175577.png) no-repeat;display:inline-block;padding-left:32px;line-height:24px}.city-special-list .cater{background-position:0 -190px}.city-special-list .hotel{background-position:0 -214px}.city-special-list .busstop{background-position:0 -238px}.city-normal-list{text-align:center;margin:17px auto}.city-normal-item{cursor:pointer;text-align:center;border-right:1px dashed #eee;height:14px;line-height:14px;width:74px;display:inline-block}.city-normal-item.city-normal-last{border-right:0}@media only screen and (-webkit-min-device-pixel-ratio:2),(-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi){.city-special-list .cater{background:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/retina/sug-list_a20fddd.png) no-repeat;background-size:auto 72px;background-position:0 -48px}.city-special-list .hotel{background:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/retina/sug-list_a20fddd.png) no-repeat;background-size:auto 72px;background-position:0 -24px}.city-special-list .busstop{background:url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/retina/sug-list_a20fddd.png) no-repeat;background-size:auto 72px;background-position:0 0}}.ui3-set-my-place-item{line-height:32px}.ui3-set-my-place-item:hover,.ui3-set-my-place-item.ui3-suggest-item-hover{cursor:pointer;background-color:#EBEBEB}.ui3-set-my-place-item.home em{display:inline-block;width:15px;height:13px;padding-top:2px;background:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/ui3/tools/suggestion-icon_013979b.png) no-repeat 0 -40px}.ui3-set-my-place-item.company em{display:inline-block;padding-top:2px;width:15px;height:14px;background:url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/ui3/tools/suggestion-icon_013979b.png) no-repeat 0 -26px}.ui3-set-my-place-item b{padding-left:12px;float:left;line-height:32px}.ui3-set-my-place-item.other b{padding-left:17px}.ui3-set-my-place-item em{display:inline-block;width:15px;line-height:14px;height:14px;background:url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/ui3/tools/tools_47a3ea9.png) no-repeat -30px -291px}.ui3-set-my-place-item span{color:#666;margin-left:13px;width:53px}.ui3-set-my-place-item a{vertical-align:middle;color:#999;margin-left:14px;text-decoration:none}.ui3-set-my-place-item i{float:right;font-style:normal;margin-right:5px}.ui3-set-my-place-action a{margin-left:5px}.ui3-set-my-place-inner i a:hover{color:#36c}.ui3-set-my-place-item .has-data{display:block;margin-left:105px;margin-right:70px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ui3-set-my-place-item.other .has-data{margin-left:44px}.ui3-set-my-place-item .has-data:hover{}</style>
+<script type="text/javascript" src="../js/device/jquery-form.js"></script>
+<script type="text/javascript" src="../js/device/jquery_ujs.js"></script>
+<script type="text/javascript" src="../js/device/jquery.js"></script>
+ <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+ <link rel="stylesheet" href="http://webmap1.map.bdstatic.com/wolfman/static/common/pkg/index_5949b2a.css"/>
+    <script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
+    <script src="http://webapi.amap.com/maps?v=1.3&key=0b26981dfe81b58acb8b3b96cfb65fe0"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+
+<div id="app-right-top">
+<div id="user-center" class="ui3-user-center-wrap" style="visibility: visible;">
+<div class="avatar-abstract" style="background-image: url(http://himg.bdimg.com/sys/portrait/item/2fa6666c796d6167696332303132332f.jpg);"></div>
+<div class="info-box clearfix"><div class="arrow"></div><div class="detail-info-box"><div class="up-zone"><div class="login-wrapper">                <div class="left avatar" style="background-image:url(http://himg.bdimg.com/sys/portrait/item/2fa6666c796d6167696332303132332f.jpg)">                </div>                <div class="right user-info">                                    <div class="username text-overflow">flymagic2012</div>                    <div class="associate-tip">                    您暂未关联手机，在APP登录后可自动关联                    </div>                </div></div></div><div class="mylocation-box bottom-split"><ul class="list"><li><i class="icon home"></i><div class="mylocation-box" data-target="home"><span class="caption">我的家</span><span class="addr color-weak text-overflow"></span><span class="setting"><a href="javascript:;" data-action="set" class="set"></a></span></div></li><li><i class="icon company"></i><div class="mylocation-box" data-target="company"><span class="caption">公司/学校</span><span class="addr color-weak text-overflow"></span><span class="setting"><a href="javascript:;" data-action="set" class="set"></a></span></div></li></ul></div><div class="bottom-split"><ul class="list"><li><a data-name="groupon" href="http://www.nuomi.com/uc/order/order?status=all" target="_blank" class="need-login"><i class="icon groupon"></i><span class="color-strong">团购订单</span></a></li><li><a data-name="movie" href="http://map.baidu.com/detail?qt=orderlist&amp;type=movie" target="_blank" class="need-login"><i class="icon movie"></i><span class="color-strong">电影订单</span></a></li><li><a data-name="takeout" href="http://waimai.baidu.com/waimai?qt=orderlist" target="_blank" class="need-login"><i class="icon takeout"></i><span class="color-strong">外卖订单</span></a></li></ul></div><div class="bottom-split"><ul class="list"><li><a href="javascript:;" class="my-fav need-login" data-name="fav"><i class="icon fav"></i><span class="color-strong">我的收藏</span></a></li><li><a data-name="mycenter" href="http://map.baidu.com/ugc/user/index" target="_blank" class="need-login"><i class="icon center"></i><span class="color-strong">我的主页</span></a></li><li><a data-name="accoutsetting" href="https://passport.baidu.com/center" target="_blank" class="need-login"><i class="icon setting"></i><span class="color-strong">账号设置</span></a></li></ul></div><div class="exit"><a data-name="quit" href="javascript:;" class="logout color-weak">退出账号</a></div></div></div></div>
+<div id="message-center" class="">
+<div class="message-center-entrance">
+</div>
+<div class="message-reddot">
+</div>
+<div id="message-panel"><img src="http://webmap0.map.bdstatic.com/wolfman/static/common/images/new/login-guide_00951fb.png" srcset="http://webmap0.map.bdstatic.com/wolfman/static/common/images/new/login-guide_00951fb.png 1x, http://webmap1.map.bdstatic.com/wolfman/static/common/images/new/login-guide-2x_58c6483.png 2x"><div class="close-btn" title="关闭"></div><div class="login-btn-box"><span href="javscript:;" class="login-btn logined">你已是登录用户</span></div></div>
+</div>
+<div id="tool-container" class="toolscontainer"><div class="ui3-control-wrap clearfixs" id="ui3_control_wrap">        <div class="citychangeopt ui3-city-change-wrap" id="ui3_city_change">            <span class="adjustpadding"></span>            <span class="weather-item" id="weather" title="多云">                  <img alt="天气" src="http://s1.bdstatic.com/r/www/aladdin/img/new_weath/simpleico/5.png">            </span>            <a href="#" map-on-click="selectCity" onclick="return false" class="ui3-city-change-inner ui3-control-shadow">                <span>北京市</span><em></em>            </a>        </div>        <div class="left float-l">            <b class="tool-gap"></b>            <div class="trafficopt" map-on-click="traffic">                <span id="traffic_control" class="last traffic"></span><i>路况</i>            </div>            <b></b>            <div class="boxopt" map-on-click="box">                <span id="util_control" class="boxutils boxicon"></span>                <i class="boxtext">工具</i><em></em>            </div>            <div class="detail-box">                <ul id="boxul" class="boxinfo">                    <li class="map-measure" map-on-click="measure"><span class="last measure">                        </span><i>测距</i>                    </li>                    <li class="map-mark" map-on-click="mark"><span class="last mark">                        </span><i>标记</i>                    </li>                    <li class="map-share" map-on-click="share"><span class="last share">                        </span><i>分享</i>                    </li>                </ul>            </div>        </div></div></div>
+</div>
+
+
+<div class="map_popup " style="width: 283px; display: block; height: 393px; right: 69px; top: 57px;"><div class="popup_main"><div class="title">城市列表</div><div class="content" style="height: 369px; overflow: hidden;"><div class="sel_city blueC" onmousedown="T.G('selCityInfo').style.display = 'none'">    <div id="selCityTop" style="_width:100%;">        <div class="sel_city_default" id="set_default_city" style="display: block;"><p id="CurCityInfo"><span>当前城市：北京市</span><a class="def_city" style="display:inline;" href="javascript:void(0);" onclick="SelectCityInst.setDefCity('北京市',this,1);return false;" id="SetDefCity">设为默认城市</a></p><p class="default_info" id="DefCityInfo" style="display:none;">您默认的城市是：<a href="javascript:void(0);" onclick="SelectCityInst.selDefCity('131','北京市');return false;">北京市</a><span>[<a href="javascript:void(0);" onclick="SelectCityInst.delDefCity('北京市');return false;">删除</a>]</span></p></div>             <div class="sel-city-hotcity" style="display:none;"><a href="javascript:void(0)" class="search_nation">在全国范围内检索</a></div>        <div id="selCityHotCityId" class="sel-city-hotcity"><a href="javascript:void(0)" name="全国" style="font-weight:bold;margin-right:5px">全国</a>
+<a href="javascript:void(0)" citycode="131" name="北京" style="margin-right:5px;*margin-right:1px;">北京</a>
+<a href="javascript:void(0)" citycode="289" name="上海" style="margin-right:5px;*margin-right:1px;">上海</a>
+<a href="javascript:void(0)" citycode="257" name="广州" style="margin-right:5px;*margin-right:1px;">广州</a>
+<a href="javascript:void(0)" citycode="340" name="深圳" style="margin-right:5px;*margin-right:1px;">深圳</a>
+<a href="javascript:void(0)" citycode="75" name="成都" style="margin-right:5px;*margin-right:1px;">成都</a>
+<a href="javascript:void(0)" citycode="332" name="天津" style="margin-right:5px;*margin-right:1px;">天津</a>
+<a href="javascript:void(0)" citycode="315" name="南京" style="margin-right:5px;*margin-right:1px;">南京</a>
+<a href="javascript:void(0)" citycode="179" name="杭州" style="margin-right:5px;*margin-right:1px;">杭州</a>
+<a href="javascript:void(0)" citycode="218" name="武汉" style="margin-right:5px;*margin-right:1px;">武汉</a>
+<a href="javascript:void(0)" citycode="132" name="重庆" style="margin-right:5px;*margin-right:1px;">重庆</a>
+</div>        <div class="sel-city-searchbar">            <div class="btnbar">                <span href="javascript:void(0)" tid="selCityProvince" id="selCityProvince" class="sel-city-btnl sel-city-btnl-sel">按省份</span>                <span href="javascript:void(0)" tid="selCityCity" id="selCityCity" class="sel-city-btnr">按城市</span>            </div>            <form id="selectCity" onsubmit="SelectCityInst.search(this);return false">                <input type="text" tid="selCitySearchInput" class="sel-city-searchinput" id="selCityCityWd" name="wd" value="输入城市名" style="color: gray; width: 80px;" onfocus="SelectCityInst.wdClick(this)" autocomplete="off">                <span tid="selCitySubmit" id="selCitySubmit" class="sel-city-btn-submit">搜索</span>                <div id="selCityInfo" class="sel-city-tip">请输入正确的城市名</div>            </form>        </div>        <div id="selCityLetterListId" class="sel-city-letterbar"><a href="javascript:void(0)">A</a>
+<a href="javascript:void(0)">F</a>
+<a href="javascript:void(0)">G</a>
+<a href="javascript:void(0)">H</a>
+<a href="javascript:void(0)">J</a>
+<a href="javascript:void(0)">L</a>
+<a href="javascript:void(0)">N</a>
+<a href="javascript:void(0)">Q</a>
+<a href="javascript:void(0)">S</a>
+<a href="javascript:void(0)">T</a>
+<a href="javascript:void(0)">X</a>
+<a href="javascript:void(0)">Y</a>
+<a href="javascript:void(0)">Z</a>
+<a href="javascript:void(0)">其它</a>
+</div>        <div style="border-top:1px solid #CCC;padding-bottom:10px;"></div>    </div>    <div id="selCityPlaceListId" class="selCityPlaceList" style="width: 100%; height: 149px;"><table style="border-collapse:collapse;border-spacing:0;" cellpadding="0" cellspacing="0"><tbody><tr><td class="sel-city-td-letter"><div>A</div></td><td class="sel-city-td-sf"><a href="javascript:void(0)">安徽:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">合肥</a>
+<a href="javascript:void(0)">安庆</a>
+<a href="javascript:void(0)">蚌埠</a>
+<a href="javascript:void(0)">亳州</a>
+<a href="javascript:void(0)">巢湖</a>
+<a href="javascript:void(0)">池州</a>
+<a href="javascript:void(0)">滁州</a>
+<a href="javascript:void(0)">阜阳</a>
+<a href="javascript:void(0)">淮北</a>
+<a href="javascript:void(0)">淮南</a>
+<a href="javascript:void(0)">黄山</a>
+<a href="javascript:void(0)">六安</a>
+<a href="javascript:void(0)">马鞍山</a>
+<a href="javascript:void(0)">宿州</a>
+<a href="javascript:void(0)">铜陵</a>
+<a href="javascript:void(0)">芜湖</a>
+<a href="javascript:void(0)">宣城</a>
+</td></tr><tr><td colspan="3"><div class="sel-city-tr-splitline">A</div></td></tr><tr><td class="sel-city-td-letter"><div>F</div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5785">福建:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">福州</a>
+<a href="javascript:void(0)">龙岩</a>
+<a href="javascript:void(0)">南平</a>
+<a href="javascript:void(0)">宁德</a>
+<a href="javascript:void(0)">莆田</a>
+<a href="javascript:void(0)">泉州</a>
+<a href="javascript:void(0)">三明</a>
+<a href="javascript:void(0)">厦门</a>
+<a href="javascript:void(0)">漳州</a>
+</td></tr><tr><td colspan="3"><div class="sel-city-tr-splitline">F</div></td></tr><tr><td class="sel-city-td-letter"><div>G</div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5776">广东:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">广州</a>
+<a href="javascript:void(0)">潮州</a>
+<a href="javascript:void(0)">东莞</a>
+<a href="javascript:void(0)">佛山</a>
+<a href="javascript:void(0)">河源</a>
+<a href="javascript:void(0)">惠州</a>
+<a href="javascript:void(0)">江门</a>
+<a href="javascript:void(0)">揭阳</a>
+<a href="javascript:void(0)">茂名</a>
+<a href="javascript:void(0)">梅州</a>
+<a href="javascript:void(0)">清远</a>
+<a href="javascript:void(0)">汕头</a>
+<a href="javascript:void(0)">汕尾</a>
+<a href="javascript:void(0)">韶关</a>
+<a href="javascript:void(0)">深圳</a>
+<a href="javascript:void(0)">阳江</a>
+<a href="javascript:void(0)">云浮</a>
+<a href="javascript:void(0)">湛江</a>
+<a href="javascript:void(0)">肇庆</a>
+<a href="javascript:void(0)">中山</a>
+<a href="javascript:void(0)">珠海</a>
+</td></tr><tr><td class="sel-city-td-letter"><div></div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5786">广西:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">南宁</a>
+<a href="javascript:void(0)">百色</a>
+<a href="javascript:void(0)">北海</a>
+<a href="javascript:void(0)">崇左</a>
+<a href="javascript:void(0)">防城港</a>
+<a href="javascript:void(0)">桂林</a>
+<a href="javascript:void(0)">贵港</a>
+<a href="javascript:void(0)">河池</a>
+<a href="javascript:void(0)">贺州</a>
+<a href="javascript:void(0)">来宾</a>
+<a href="javascript:void(0)">柳州</a>
+<a href="javascript:void(0)">钦州</a>
+<a href="javascript:void(0)">梧州</a>
+<a href="javascript:void(0)">玉林</a>
+</td></tr><tr><td class="sel-city-td-letter"><div></div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5793">贵州:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">贵阳</a>
+<a href="javascript:void(0)">安顺</a>
+<a href="javascript:void(0)">毕节地区</a>
+<a href="javascript:void(0)">六盘水</a>
+<a href="javascript:void(0)">铜仁地区</a>
+<a href="javascript:void(0)">遵义</a>
+<a href="javascript:void(0)" name="黔西南布依族苗族自治州">黔西南州</a>
+<a href="javascript:void(0)" name="黔东南苗族侗族自治州">黔东南州</a>
+<a href="javascript:void(0)" name="黔南布依族苗族自治州">黔南州</a>
+</td></tr><tr><td class="sel-city-td-letter"><div></div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5775">甘肃:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">兰州</a>
+<a href="javascript:void(0)">白银</a>
+<a href="javascript:void(0)">定西</a>
+<a href="javascript:void(0)" name="甘南藏族自治州">甘南州</a>
+<a href="javascript:void(0)">嘉峪关</a>
+<a href="javascript:void(0)">金昌</a>
+<a href="javascript:void(0)">酒泉</a>
+<a href="javascript:void(0)" name="临夏回族自治州">临夏州</a>
+<a href="javascript:void(0)">陇南</a>
+<a href="javascript:void(0)">平凉</a>
+<a href="javascript:void(0)">庆阳</a>
+<a href="javascript:void(0)">天水</a>
+<a href="javascript:void(0)">武威</a>
+<a href="javascript:void(0)">张掖</a>
+</td></tr><tr><td colspan="3"><div class="sel-city-tr-splitline">G</div></td></tr><tr><td class="sel-city-td-letter"><div>H</div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5790">海南:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">海口</a>
+<a href="javascript:void(0)" name="白沙黎族自治县">白沙</a>
+<a href="javascript:void(0)" name="保亭黎族苗族自治县">保亭</a>
+<a href="javascript:void(0)" name="昌江黎族自治县">昌江</a>
+<a href="javascript:void(0)">儋州</a>
+<a href="javascript:void(0)">澄迈</a>
+<a href="javascript:void(0)">东方</a>
+<a href="javascript:void(0)">定安</a>
+<a href="javascript:void(0)">琼海</a>
+<a href="javascript:void(0)" name="琼中黎族苗族自治县">琼中</a>
+<a href="javascript:void(0)" name="乐东黎族自治县">乐东</a>
+<a href="javascript:void(0)">临高</a>
+<a href="javascript:void(0)" name="陵水黎族自治县">陵水</a>
+<a href="javascript:void(0)">三亚</a>
+<a href="javascript:void(0)">屯昌</a>
+<a href="javascript:void(0)">万宁</a>
+<a href="javascript:void(0)">文昌</a>
+<a href="javascript:void(0)">五指山</a>
+</td></tr><tr><td class="sel-city-td-letter"><div></div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5799">河南:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">郑州</a>
+<a href="javascript:void(0)">安阳</a>
+<a href="javascript:void(0)">鹤壁</a>
+<a href="javascript:void(0)">焦作</a>
+<a href="javascript:void(0)">开封</a>
+<a href="javascript:void(0)">洛阳</a>
+<a href="javascript:void(0)">漯河</a>
+<a href="javascript:void(0)">南阳</a>
+<a href="javascript:void(0)">平顶山</a>
+<a href="javascript:void(0)">濮阳</a>
+<a href="javascript:void(0)">三门峡</a>
+<a href="javascript:void(0)">商丘</a>
+<a href="javascript:void(0)">新乡</a>
+<a href="javascript:void(0)">信阳</a>
+<a href="javascript:void(0)">许昌</a>
+<a href="javascript:void(0)">周口</a>
+<a href="javascript:void(0)">驻马店</a>
+</td></tr><tr><td class="sel-city-td-letter"><div></div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5771">黑龙江:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">哈尔滨</a>
+<a href="javascript:void(0)">大庆</a>
+<a href="javascript:void(0)">大兴安岭地区</a>
+<a href="javascript:void(0)">鹤岗</a>
+<a href="javascript:void(0)">黑河</a>
+<a href="javascript:void(0)">鸡西</a>
+<a href="javascript:void(0)">佳木斯</a>
+<a href="javascript:void(0)">牡丹江</a>
+<a href="javascript:void(0)">七台河</a>
+<a href="javascript:void(0)">齐齐哈尔</a>
+<a href="javascript:void(0)">双鸭山</a>
+<a href="javascript:void(0)">绥化</a>
+<a href="javascript:void(0)">伊春</a>
+</td></tr><tr><td class="sel-city-td-letter"><div></div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5784">湖北:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">武汉</a>
+<a href="javascript:void(0)">鄂州</a>
+<a href="javascript:void(0)" name="恩施土家族苗族自治州">恩施</a>
+<a href="javascript:void(0)">黄冈</a>
+<a href="javascript:void(0)">黄石</a>
+<a href="javascript:void(0)">荆门</a>
+<a href="javascript:void(0)">荆州</a>
+<a href="javascript:void(0)">潜江</a>
+<a href="javascript:void(0)">神农架林区</a>
+<a href="javascript:void(0)">十堰</a>
+<a href="javascript:void(0)">随州</a>
+<a href="javascript:void(0)">天门</a>
+<a href="javascript:void(0)">仙桃</a>
+<a href="javascript:void(0)">咸宁</a>
+<a href="javascript:void(0)">襄阳</a>
+<a href="javascript:void(0)">孝感</a>
+<a href="javascript:void(0)">宜昌</a>
+</td></tr><tr><td class="sel-city-td-letter"><div></div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5795">湖南:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">长沙</a>
+<a href="javascript:void(0)">常德</a>
+<a href="javascript:void(0)">郴州</a>
+<a href="javascript:void(0)">衡阳</a>
+<a href="javascript:void(0)">怀化</a>
+<a href="javascript:void(0)">娄底</a>
+<a href="javascript:void(0)">邵阳</a>
+<a href="javascript:void(0)">湘潭</a>
+<a href="javascript:void(0)" name="湘西土家族苗族自治州">湘西州</a>
+<a href="javascript:void(0)">益阳</a>
+<a href="javascript:void(0)">永州</a>
+<a href="javascript:void(0)">岳阳</a>
+<a href="javascript:void(0)">张家界</a>
+<a href="javascript:void(0)">株洲</a>
+</td></tr><tr><td class="sel-city-td-letter"><div></div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5794">河北:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">石家庄</a>
+<a href="javascript:void(0)">保定</a>
+<a href="javascript:void(0)">沧州</a>
+<a href="javascript:void(0)">承德</a>
+<a href="javascript:void(0)">邯郸</a>
+<a href="javascript:void(0)">衡水</a>
+<a href="javascript:void(0)">廊坊</a>
+<a href="javascript:void(0)">秦皇岛</a>
+<a href="javascript:void(0)">唐山</a>
+<a href="javascript:void(0)">邢台</a>
+<a href="javascript:void(0)">张家口</a>
+</td></tr><tr><td colspan="3"><div class="sel-city-tr-splitline">H</div></td></tr><tr><td class="sel-city-td-letter"><div>J</div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5787">江苏:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">南京</a>
+<a href="javascript:void(0)">常州</a>
+<a href="javascript:void(0)">淮安</a>
+<a href="javascript:void(0)">连云港</a>
+<a href="javascript:void(0)">南通</a>
+<a href="javascript:void(0)">苏州</a>
+<a href="javascript:void(0)">宿迁</a>
+<a href="javascript:void(0)">泰州</a>
+<a href="javascript:void(0)">无锡</a>
+<a href="javascript:void(0)">徐州</a>
+<a href="javascript:void(0)">盐城</a>
+<a href="javascript:void(0)">扬州</a>
+<a href="javascript:void(0)">镇江</a>
+</td></tr><tr><td class="sel-city-td-letter"><div></div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5800">江西:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">南昌</a>
+<a href="javascript:void(0)">抚州</a>
+<a href="javascript:void(0)">赣州</a>
+<a href="javascript:void(0)">吉安</a>
+<a href="javascript:void(0)">景德镇</a>
+<a href="javascript:void(0)">九江</a>
+<a href="javascript:void(0)">萍乡</a>
+<a href="javascript:void(0)">上饶</a>
+<a href="javascript:void(0)">新余</a>
+<a href="javascript:void(0)">宜春</a>
+<a href="javascript:void(0)">鹰潭</a>
+</td></tr><tr><td class="sel-city-td-letter"><div></div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5778" name="吉林省">吉林:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">长春</a>
+<a href="javascript:void(0)">白城</a>
+<a href="javascript:void(0)">白山</a>
+<a href="javascript:void(0)">吉林市</a>
+<a href="javascript:void(0)">辽源</a>
+<a href="javascript:void(0)">四平</a>
+<a href="javascript:void(0)">松原</a>
+<a href="javascript:void(0)">通化</a>
+<a href="javascript:void(0)" name="延边朝鲜族自治州">延边</a>
+</td></tr><tr><td colspan="3"><div class="sel-city-tr-splitline">J</div></td></tr><tr><td class="sel-city-td-letter"><div>L</div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5788">辽宁:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">沈阳</a>
+<a href="javascript:void(0)">鞍山</a>
+<a href="javascript:void(0)">本溪</a>
+<a href="javascript:void(0)">朝阳</a>
+<a href="javascript:void(0)">大连</a>
+<a href="javascript:void(0)">丹东</a>
+<a href="javascript:void(0)">抚顺</a>
+<a href="javascript:void(0)">阜新</a>
+<a href="javascript:void(0)">葫芦岛</a>
+<a href="javascript:void(0)">锦州</a>
+<a href="javascript:void(0)">辽阳</a>
+<a href="javascript:void(0)">盘锦</a>
+<a href="javascript:void(0)">铁岭</a>
+<a href="javascript:void(0)">营口</a>
+</td></tr><tr><td colspan="3"><div class="sel-city-tr-splitline">L</div></td></tr><tr><td class="sel-city-td-letter"><div>N</div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5789">宁夏:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">银川</a>
+<a href="javascript:void(0)">固原</a>
+<a href="javascript:void(0)">石嘴山</a>
+<a href="javascript:void(0)">吴忠</a>
+<a href="javascript:void(0)">中卫</a>
+</td></tr><tr><td class="sel-city-td-letter"><div></div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5791">内蒙古:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">呼和浩特</a>
+<a href="javascript:void(0)">阿拉善盟</a>
+<a href="javascript:void(0)">包头</a>
+<a href="javascript:void(0)">巴彦淖尔</a>
+<a href="javascript:void(0)">赤峰</a>
+<a href="javascript:void(0)">鄂尔多斯</a>
+<a href="javascript:void(0)">呼伦贝尔</a>
+<a href="javascript:void(0)">通辽</a>
+<a href="javascript:void(0)">乌海</a>
+<a href="javascript:void(0)">乌兰察布</a>
+<a href="javascript:void(0)">锡林郭勒盟</a>
+<a href="javascript:void(0)">兴安盟</a>
+</td></tr><tr><td colspan="3"><div class="sel-city-tr-splitline">N</div></td></tr><tr><td class="sel-city-td-letter"><div>Q</div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5780">青海:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">西宁</a>
+<a href="javascript:void(0)" name="果洛藏族自治州">果洛州</a>
+<a href="javascript:void(0)">海东地区</a>
+<a href="javascript:void(0)" name="海北藏族自治州">海北州</a>
+<a href="javascript:void(0)" name="海南藏族自治州">海南州</a>
+<a href="javascript:void(0)" name="海西蒙古族藏族自治州">海西州</a>
+<a href="javascript:void(0)" name="黄南藏族自治州">黄南州</a>
+<a href="javascript:void(0)" name="玉树藏族自治州">玉树州</a>
+</td></tr><tr><td colspan="3"><div class="sel-city-tr-splitline">Q</div></td></tr><tr><td class="sel-city-td-letter"><div>S</div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5777">山东:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">济南</a>
+<a href="javascript:void(0)">滨州</a>
+<a href="javascript:void(0)">东营</a>
+<a href="javascript:void(0)">德州</a>
+<a href="javascript:void(0)">菏泽</a>
+<a href="javascript:void(0)">济宁</a>
+<a href="javascript:void(0)">莱芜</a>
+<a href="javascript:void(0)">聊城</a>
+<a href="javascript:void(0)">临沂</a>
+<a href="javascript:void(0)">青岛</a>
+<a href="javascript:void(0)">日照</a>
+<a href="javascript:void(0)">泰安</a>
+<a href="javascript:void(0)">威海</a>
+<a href="javascript:void(0)">潍坊</a>
+<a href="javascript:void(0)">烟台</a>
+<a href="javascript:void(0)">枣庄</a>
+<a href="javascript:void(0)">淄博</a>
+</td></tr><tr><td class="sel-city-td-letter"><div></div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5779">山西:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">太原</a>
+<a href="javascript:void(0)">长治</a>
+<a href="javascript:void(0)">大同</a>
+<a href="javascript:void(0)">晋城</a>
+<a href="javascript:void(0)">晋中</a>
+<a href="javascript:void(0)">临汾</a>
+<a href="javascript:void(0)">吕梁</a>
+<a href="javascript:void(0)">朔州</a>
+<a href="javascript:void(0)">忻州</a>
+<a href="javascript:void(0)">阳泉</a>
+<a href="javascript:void(0)">运城</a>
+</td></tr><tr><td class="sel-city-td-letter"><div></div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5796">陕西:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">西安</a>
+<a href="javascript:void(0)">安康</a>
+<a href="javascript:void(0)">宝鸡</a>
+<a href="javascript:void(0)">汉中</a>
+<a href="javascript:void(0)">商洛</a>
+<a href="javascript:void(0)">铜川</a>
+<a href="javascript:void(0)">渭南</a>
+<a href="javascript:void(0)">咸阳</a>
+<a href="javascript:void(0)">延安</a>
+<a href="javascript:void(0)">榆林</a>
+</td></tr><tr><td class="sel-city-td-letter"><div></div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5801">四川:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">成都</a>
+<a href="javascript:void(0)" name="阿坝藏族羌族自治州">阿坝州</a>
+<a href="javascript:void(0)">巴中</a>
+<a href="javascript:void(0)">达州</a>
+<a href="javascript:void(0)">德阳</a>
+<a href="javascript:void(0)" name="甘孜藏族自治州">甘孜州</a>
+<a href="javascript:void(0)">广安</a>
+<a href="javascript:void(0)">广元</a>
+<a href="javascript:void(0)">乐山</a>
+<a href="javascript:void(0)" name="凉山彝族自治州">凉山州</a>
+<a href="javascript:void(0)">泸州</a>
+<a href="javascript:void(0)">南充</a>
+<a href="javascript:void(0)">眉山</a>
+<a href="javascript:void(0)">绵阳</a>
+<a href="javascript:void(0)">内江</a>
+<a href="javascript:void(0)">攀枝花</a>
+<a href="javascript:void(0)">遂宁</a>
+<a href="javascript:void(0)">雅安</a>
+<a href="javascript:void(0)">宜宾</a>
+<a href="javascript:void(0)">资阳</a>
+<a href="javascript:void(0)">自贡</a>
+</td></tr><tr><td colspan="3"><div class="sel-city-tr-splitline">S</div></td></tr><tr><td class="sel-city-td-letter"><div>T</div></td><td class="sel-city-td-sf"><a href="javascript:void(0)">台湾:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">台北</a>
+<a href="javascript:void(0)">高雄</a>
+<a href="javascript:void(0)">台中</a>
+<a href="javascript:void(0)">台南</a>
+<a href="javascript:void(0)">新北</a>
+<a href="javascript:void(0)">基隆</a>
+<a href="javascript:void(0)">新竹</a>
+<a href="javascript:void(0)">嘉义</a>
+</td></tr><tr><td colspan="3"><div class="sel-city-tr-splitline">T</div></td></tr><tr><td class="sel-city-td-letter"><div>X</div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5782">西藏:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">拉萨</a>
+<a href="javascript:void(0)">阿里地区</a>
+<a href="javascript:void(0)">昌都地区</a>
+<a href="javascript:void(0)">林芝地区</a>
+<a href="javascript:void(0)">那曲地区</a>
+<a href="javascript:void(0)">日喀则地区</a>
+<a href="javascript:void(0)">山南地区</a>
+</td></tr><tr><td class="sel-city-td-letter"><div></div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5781">新疆:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">乌鲁木齐</a>
+<a href="javascript:void(0)">阿拉尔</a>
+<a href="javascript:void(0)">阿克苏地区</a>
+<a href="javascript:void(0)">阿勒泰地区</a>
+<a href="javascript:void(0)" name="巴音郭楞蒙古自治州">巴音郭楞</a>
+<a href="javascript:void(0)" name="博尔塔拉蒙古自治州">博尔塔拉州</a>
+<a href="javascript:void(0)" name="昌吉回族自治州">昌吉州</a>
+<a href="javascript:void(0)">哈密地区</a>
+<a href="javascript:void(0)">和田地区</a>
+<a href="javascript:void(0)">喀什地区</a>
+<a href="javascript:void(0)">克拉玛依</a>
+<a href="javascript:void(0)" name="克孜勒苏柯尔克孜自治州">克孜勒苏州</a>
+<a href="javascript:void(0)">石河子</a>
+<a href="javascript:void(0)">塔城地区</a>
+<a href="javascript:void(0)">图木舒克</a>
+<a href="javascript:void(0)">吐鲁番地区</a>
+<a href="javascript:void(0)">五家渠</a>
+<a href="javascript:void(0)" name="伊犁哈萨克自治州">伊犁州</a>
+</td></tr><tr><td colspan="3"><div class="sel-city-tr-splitline">X</div></td></tr><tr><td class="sel-city-td-letter"><div>Y</div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5797">云南:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">昆明</a>
+<a href="javascript:void(0)">保山</a>
+<a href="javascript:void(0)" name="楚雄彝族自治州">楚雄州</a>
+<a href="javascript:void(0)" name="大理白族自治州">大理州</a>
+<a href="javascript:void(0)" name="德宏傣族景颇族自治州">德宏州</a>
+<a href="javascript:void(0)" name="迪庆藏族自治州">迪庆州</a>
+<a href="javascript:void(0)" name="红河哈尼族彝族自治州">红河州</a>
+<a href="javascript:void(0)">丽江</a>
+<a href="javascript:void(0)">临沧</a>
+<a href="javascript:void(0)" name="怒江傈僳族自治州">怒江州</a>
+<a href="javascript:void(0)">普洱</a>
+<a href="javascript:void(0)">曲靖</a>
+<a href="javascript:void(0)">昭通</a>
+<a href="javascript:void(0)" name="文山壮族苗族自治州">文山</a>
+<a href="javascript:void(0)" name="西双版纳傣族自治州">西双版纳</a>
+<a href="javascript:void(0)">玉溪</a>
+</td></tr><tr><td colspan="3"><div class="sel-city-tr-splitline">Y</div></td></tr><tr><td class="sel-city-td-letter"><div>Z</div></td><td class="sel-city-td-sf"><a href="javascript:void(0)" code="5798">浙江:</a></td><td class="sel-city-td-item"><a href="javascript:void(0)">杭州</a>
+<a href="javascript:void(0)">湖州</a>
+<a href="javascript:void(0)">嘉兴</a>
+<a href="javascript:void(0)">金华</a>
+<a href="javascript:void(0)">丽水</a>
+<a href="javascript:void(0)">宁波</a>
+<a href="javascript:void(0)">衢州</a>
+<a href="javascript:void(0)">绍兴</a>
+<a href="javascript:void(0)">台州</a>
+<a href="javascript:void(0)">温州</a>
+<a href="javascript:void(0)">舟山</a>
+</td></tr><tr><td colspan="3"><div class="sel-city-tr-splitline">其它</div></td></tr><tr><td><div style="visibility:hidden;">other</div></td><td class="sel-city-td-other"><span>其它:</span></td><td><a href="javascript:void(0)">香港</a><a href="javascript:void(0)">澳门</a></td></tr></tbody></table></div></div></div><button id="popup_close" title="关闭"></button></div><div class="poput_shadow" style="height: 393px;"></div></div>
+
+
+<div class="col-sm-10 all_device" style="width: 100%">
+            <div style="margin-left:90px;" class="form-horizontal personU_theRight">                
+             <div id="exploremap" style="height: 800px; width: 100%"></div>
+            </div>
+        </div>
+
+<script src="../js/device/gps.js"></script>
+
+<script type="text/javascript">
+    var map = new AMap.Map('exploremap', {
+        resizeEnable: true,
+        zoom:5,
+        center: [116.397428, 39.90923]
+        
+    });
+   var infoWindow = new AMap.InfoWindow({offset: new AMap.Pixel(0, -30)});
+   var markerArr = new Array();
+   $.ajax({
+   					type:"post",
+  					url:"/devices/getDevices?pid=<%= @user_id%>",
+   					success:function(data){
+   						var flag = data.code;
+   						if(flag == 0){//有数据
+   							var dataObj=data.data; 
+   							var htm = '';
+                                                        
+   							for(var i=0;i<dataObj.length;i++){
+   								markerArr[i] = dataObj[i];
+                                                                if(!dataObj[i].lon){
+                                                                   continue;
+                                                                }
+                                                                var position=[];
+                                                                position[0]=dataObj[i].lon;
+                                                                position[1]=dataObj[i].lat;
+                                                                var lgd=GPS.gcj_encrypt(dataObj[i].lat,dataObj[i].lon);
+                                                                //alert(lgd);
+                                                                position[0]=lgd.lon;
+                                                                position[1]=lgd.lat;
+                                                                var imgpath="/img/mark_b.png";
+                                                                var timestamp = Date.parse(new Date())/1000;
+                                                                if (typeof(dataObj[i].update_time) != "undefined"){
+                                                                     if(dataObj[i].update_time > timestamp-180){
+                                                                       imgpath="/img/mark_g.png";
+                                                                     }
+                                                                }
+                                                                
+                                                                marker = new AMap.Marker({
+                                                                icon: imgpath,
+                                                                position: position
+                                                                });
+                                                                marker.setMap(map);
+                                                                 marker.setLabel({
+                                                                 offset: new AMap.Pixel(20, 20),//修改label相对于maker的位置
+                                                                 content: dataObj[i].device_name
+                                                                });
+                                                                  
+
+
+                                                                var info = [];
+                                                                info.push("<div><div><img style=\"float:left;\" src=\" http://webapi.amap.com/images/autonavi.png \"/></div> ");
+                                                                info.push("<div style=\"padding:0px 0px 0px 4px;\"><b>高德软件</b>");
+                                                                info.push("电话 : 010-84107000   邮编 : 100102");
+                                                                info.push("地址 :北京市朝阳区望京阜荣街10号首开广场4层</div></div>");
+
+                                                                //marker.content = info.join("<br/>");
+                                                                marker.content = dataObj[i].id;
+                                                                marker.on('click', markerClick);
+                                                                //marker.emit('click', {target: marker});
+
+
+                                                                
+							}
+   						}else{
+   						}
+   					}
+   				});
+    function markerClick(e) {
+        //infoWindow.setContent(e.target.content);
+        //infoWindow.open(map, e.target.getPosition());
+        $.ajax({
+   		type:"post",
+  		url:"/getSensor?id="+e.target.content,
+   		success:function(data){
+                     var sfull="";
+                     var opennum="0";
+                     var compressNum=0;
+                     for(var i=0;i<data.sensor.length;i++){
+                        se=data.sensor[i];
+                        if (se.name==("垃圾是否满")){
+                            sfull=se.tag;
+                        }
+                        if (se.name==("今天开门次数累计")){
+                            opennum=se.value;
+                        }
+                        if (se.name==("今天70%启动压缩次数")){
+                            compressNum+=parseInt(se.value);
+                        }
+                        if (se.name==("今天90%启动压缩次数")){
+                            compressNum+=parseInt(se.value);
+                        }
+                     }
+                     var info = [];
+                     info.push("<div><div style=\"padding:0px 0px 0px 0px;\"><b>"+data.device.device_name+"</b></div>");
+                     info.push("<div style=\"padding:0px 0px 0px 0px;line-height:18px;\">设备编号: "+data.device.device_sn+"");
+                     info.push("垃圾桶状态: "+sfull);
+                     info.push("今天开门次数: "+parseInt(opennum));
+                     info.push("今天压缩次数: "+compressNum);
+                     info.push("<a href='/devices/monitor?pid=<%=@project_id%>&device_id="+data.device.id+"'><font color='#3385ff'>详细信息</font></a>");
+                     info.push("</div></div>");
+                     infoWindow.setContent(info.join("<br/>"));
+                     infoWindow.open(map, e.target.getPosition());
+                     //alert("OK");
+                }
+        });
+   }
+
+</script>

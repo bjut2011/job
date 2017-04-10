@@ -1,0 +1,172 @@
+{
+	"_id" : ObjectId("5757947e421aa9edf8000001"),
+	"email" : "chenfw0923@163.com",
+	"mobile" : "13810139056",
+	"name" : "smart",
+	"password_digest" : "123698745",
+	"remeber_digest" : "12345678",
+	"token" : "zvKYT578vpeFfulUqqo2RQ",
+	"type" : NumberInt("1")
+},
+{
+	"_id" : ObjectId("5771cd6f421aa97e85000008"),
+	"email" : "chenfw@ctbri.com.cn",
+	"name" : "admin",
+	"password_digest" : "12345678",
+	"remeber_digest" : "12345678",
+	"token" : "MD8MP9FVJWl2sFufN92R5Q",
+	"type" : NumberInt("0")
+},
+{
+	"_id" : ObjectId("577200d2421aa9a644000001"),
+	"email" : "chenfw@163.com",
+	"mobile" : "13810139056",
+	"name" : "test123",
+	"parent_id" : "5757947e421aa9edf8000001",
+	"password_digest" : "12345678",
+	"token" : "xMHiSmm77u88FgwL2tpNlg",
+	"type" : NumberInt("2")
+},
+{
+	"_id" : ObjectId("577a02ed421aa922c7000002"),
+	"email" : "298319323@qq.com",
+	"mobile" : "18005850081",
+	"name" : "guangzhou001",
+	"parent_id" : "5757947e421aa9edf8000001",
+	"password_digest" : "567567567",
+	"token" : "34tQYCN7Xdh2bWTLU8o0OQ",
+	"type" : NumberInt("2")
+},
+{
+	"_id" : ObjectId("578740de421aa9a184000001"),
+	"name" : "sxdb",
+	"password_digest" : "123456789",
+	"token" : "gB0bIzevv6Mzu7c-N2N-jw",
+	"type" : NumberInt("1")
+},
+{
+	"_id" : ObjectId("5787b9a2421aa9b73e000001"),
+	"name" : "xczxj",
+	"password_digest" : "xczxj123456",
+	"token" : "rC8flFrdGb2XHmHNIb6mug",
+	"type" : NumberInt("1")
+},
+{
+	"_id" : ObjectId("579ff629421aa9beb1000001"),
+	"email" : "chenfw@163.com",
+	"mobile" : "13810139056",
+	"name" : "sttest2016",
+	"parent_id" : "5757947e421aa9edf8000001",
+	"password_digest" : "12345678",
+	"token" : "SAeH6TIhOhczTuFzbgeaEw",
+	"type" : NumberInt("2")
+},
+{
+	"_id" : ObjectId("57a97d3f421aa98d0f000001"),
+	"name" : "smart",
+	"password_digest" : "123456",
+	"token" : "R-JfR6OjwfSXmFBCEYmGBQ",
+	"type" : NumberInt("1")
+},
+{
+	"_id" : ObjectId("57d39302421aa95169000003"),
+	"name" : "good",
+	"password_digest" : "12345678",
+	"token" : "cPPfSZr_SKdvhUmFv_A1ww",
+	"type" : NumberInt("1")
+},
+{
+	"_id" : ObjectId("57d76de0421aa951c7000003"),
+	"email" : "298319323@qq.com",
+	"mobile" : "18005850081",
+	"name" : "test_sh",
+	"parent_id" : "5757947e421aa9edf8000001",
+	"password_digest" : "123456",
+	"token" : "_VH4BJ1byk3Z9Hqo3VpVFA",
+	"type" : NumberInt("2")
+},
+{
+	"_id" : ObjectId("581851bf421aa93778000004"),
+	"name" : "admin",
+	"password_digest" : "admin123",
+	"token" : "kJa1HOpo52sfbd-HYHvkog",
+	"type" : NumberInt("1")
+},
+{
+	"_id" : ObjectId("5822d5d2421aa93768000002"),
+	"email" : "298319323@qq.com",
+	"mobile" : "",
+	"name" : "zjwenzhou",
+	"parent_id" : "5757947e421aa9edf8000001",
+	"password_digest" : "123456",
+	"token" : "zOo_otxnZJ_nlgLY9X6KkQ",
+	"type" : NumberInt("2")
+},
+{
+	"_id" : ObjectId("5840e1dc421aa93778000006"),
+	"name" : "ctiot",
+	"password_digest" : "12345678",
+	"token" : "7mTAofAYDmH8k-BMyQoFZQ",
+	"type" : NumberInt("1")
+},
+{
+	"_id" : ObjectId("5860b24e421aa98424000001"),
+	"name" : "chinatelecom",
+	"password_digest" : "12345678",
+	"token" : "e4kD2uDkVqxKWYvqv3Xl4w",
+	"type" : NumberInt("1")
+},
+{
+	"_id" : ObjectId("5861af59421aa95321000001"),
+	"email" : "298319323@qq.com",
+	"mobile" : "18005850081",
+	"name" : "beijing_ad",
+	"parent_id" : "5757947e421aa9edf8000001",
+	"password_digest" : "123456",
+	"token" : "gn4ObRL8vLIdGyoBTmfgQg",
+	"type" : NumberInt("2")
+},
+{
+	"_id" : ObjectId("58722dbf421aa94381000001"),
+	"name" : "qinghua",
+	"password_digest" : "12345678",
+	"token" : "2i0Ue3hTSmX4I2ZJd3qhcQ",
+	"type" : NumberInt("1")
+},
+{
+	"_id" : ObjectId("587231e2421aa9437e000001"),
+	"name" : "ctbri",
+	"password_digest" : "12345678",
+	"token" : "DuOh-CUhPCqwvzlyqXz3FA",
+	"type" : NumberInt("1")
+},
+{
+	"_id" : ObjectId("5872f162fc5f540c25000003"),
+	"email" : "chenfw@ctbri.com.cn",
+	"mobile" : "13810139056",
+	"name" : "chenfw",
+	"parent_id" : "587231e2421aa9437e000001",
+	"password_digest" : "12345678",
+	"token" : "mIgYUkNB2bL2PUNh1-aH7w",
+	"type" : NumberInt("2")
+},
+{
+	"_id" : ObjectId("5872f178fc5f54225e000003"),
+	"email" : "zhangchao@ctbri.com.cn",
+	"mobile" : "18901177239",
+	"name" : "zhangchao",
+	"parent_id" : "587231e2421aa9437e000001",
+	"password_digest" : "12345678",
+	"token" : "0S3-RVG6JpXct_r7XIgxOg",
+	"type" : NumberInt("2")
+},
+{
+	"_id" : ObjectId("587ed453421aa94388000002"),
+	"email" : "298319323@qq.com",
+	"mobile" : "18005850081",
+	"name" : "test_ys",
+	"parent_id" : "5757947e421aa9edf8000001",
+	"password_digest" : "123456",
+	"token" : "0RziSmaFuZHfb0ujJasLEA",
+	"type" : NumberInt("2")
+},

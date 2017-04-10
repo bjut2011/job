@@ -1,0 +1,212 @@
+<html ng-app="App" id="ng-app" class="ng-scope">
+ <head>
+  <style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}.ng-hide-add-active,.ng-hide-remove{display:block!important;}</style>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta http-equiv="cache-control" content="no-store, must-revalidate" />
+  <meta http-equiv="expires" content="0" />
+  <title>搜狐闪电邮箱</title>
+  <link rel="stylesheet" type="text/css" href="./login/common.18b59a20.css" />
+  <link rel="stylesheet" type="text/css" href="./login/index.bad47f67.css" />
+  <link rel="stylesheet" type="text/css" href="./login/contacts.a801fadb.css" />
+  <link rel="stylesheet" type="text/css" href="./login/setting.27ab940e.css" />
+  <link rel="stylesheet" type="text/css" href="./login//write.0f8255bd.css" />
+  <link rel="stylesheet" type="text/css" href="./login/help.7d98bcd9.css" />
+  <link rel="stylesheet" type="text/css" href="./login/error.63f994fe.css" />
+  <link rel="stylesheet" type="text/css" id="skinStyle" name="skinStyle" />
+  <link rel="stylesheet" type="text/css" href="http://mail_wf.cdn.sohusce.com/pc/components/jquery/jquery-flexslider/flexslider.c34b2c4a.css" />
+  <link rel="stylesheet" href="./login/style.9f3b67d6.css" />
+ </head>
+ <body>
+  <!-- uiView: mailFrame -->
+  <div class="frame ng-scope" ui-view="mailFrame" id="SkinClass"></div>
+  <!-- uiView: mailContent -->
+  <div class="content ng-scope" ui-view="mailContent" id="mailContent"></div>
+  <!-- uiView: outMail -->
+  <div class="h100 ng-scope" ui-view="outMail">
+   <div id="loginDiv" class="login pos-r ng-scope" ng-controller="loginCtrl">
+    <style type="text/css">body{overflow:auto}.login{transition:all .5s;-webkit-transition:all .5s}::-ms-clear,::-ms-reveal{display:none}.area{width:1000px;margin:0 auto;position:relative;overflow:hidden}.out-body{height:515px}.out-footer{margin:0 auto;margin-top:20px;text-align:center;line-height:1.5}.out-footer .out-footer-space{margin-left:16px}.out-header{height:80px}#loginBody{width:100%;height:515px;transition:background .5s;-webkit-transition:background .5s}#theme{position:relative;clear:both;background-repeat:no-repeat;background-position:left top;transition:background .5s;-webkit-transition:background .5s}.themeCtrl{position:absolute;left:50%;bottom:12px;margin-right:-405px;text-align:right}.themeCtrl span{cursor:pointer;width:6px;height:6px;display:inline-block;border:2px solid #bcbcbc;border-radius:50%;margin:2px 4px;filter:alpha(opacity=80);-moz-opacity:.8;-khtml-opacity:.8;opacity:.8}.inside-box-shadow{-webkit-box-shadow:inset 0 1px 5px #dbdbdb;-moz-box-shadow:inset 0 1px 5px #dbdbdb;box-shadow:inset 0 1px 5px #dbdbdb}.login-box-shadow{-webkit-box-shadow:0 0 0 rgba(23,23,23,.13),0 0 0 rgba(23,23,23,.13),0 0 0 rgba(23,23,23,.13),0 10px 10px rgba(23,23,23,.13);-moz-box-shadow:0 0 0rgba(23,23,23,.13),0 0 0 rgba(23,23,23,.13),0 0 0 rgba(23,23,23,.13),0 10px 10px rgba(23,23,23,.13);box-shadow:0 0 0 rgba(23,23,23,.13),0 0 0 rgba(23,23,23,.13),0 0 0 rgba(23,23,23,.13),0 5px 10px rgba(23,23,23,.13)}.logo-box{position:absolute;top:30px}.logo-box img{width:160px}.link-box{margin:45px 20px 0 0;color:#666}.link-box a{display:inline-block;margin:0 10px;color:#666;text-decoration:none}.form-background{text-align:center;width:100%}.form-background img{width:100%;height:550px}.login-form{box-sizing:border-box;padding:24px 30px 28px 30px;border:1px solid #ccc;border-radius:4px;width:340px;background:#fcfcfc;position:absolute;left:63%;top:55px;z-index:9999}.login-form input{font:16px/1 'microsoft yahei'}.login-form h2{font-size:18px;margin-bottom:19px;font-weight:200}.login-a{display:block;width:63%;height:480px;position:absolute;z-index:10;outline:0}.field{position:relative}.f-account,.f-pwd{padding-bottom:19px}.f-forget{height:20px;text-align:right}.f-forget a{color:#666}.ipt-box{border:1px solid #ccc;background:#fff}.ipt-box input{border:none;padding:0 10px;font-size:14px}.btn-login,.ipt-box input{display:block}.ipt-box input{width:100%;height:45px;line-height:45px}.btn-login{height:60px;line-height:67px;width:289px;background-color:#FFF;border:none;color:#fff;cursor:pointer;position:relative;left:-7px;background-image:url(http://mail_wf.cdn.sohusce.com/pc/img/login.afa0b0ef.png);outline:0}.btn-login:hover{background-image:url(http://mail_wf.cdn.sohusce.com/pc/img/login-focus.718711a8.png)}.fontFamily{font-family:"宋体","Microsoft YaHei","微软雅黑",helvetica,"Hiragino Sans GB"!important;font-weight:700!important}.account-tips{min-height:10px;top:32px;left:-1px;right:-1px;z-index:1}.account-tips .tip-one{line-height:30px;cursor:pointer;background:#EDEDED;padding-left:10px}.account-tips .tip-one:hover{background:#DDD}.tipHolder{position:absolute;bottom:-1px;left:0;right:0;color:red;padding-left:4px}.f-remember{margin:2px 0 12px 0;color:#AEAEAE}.f-captcha{margin-bottom:10px}.f-captcha .ipt-box{top:0;right:0;bottom:0;left:50%}.f-captcha img{cursor:pointer}.f-captcha input{height:100%}.f-register{background-color:#E9E9E9}.f-register:hover{background-color:#F6F6F6}.f-href{color:#FF5959}input[type=checkbox]{position:relative;top:2px}.f-register a{border:1px solid #DFDFDF;text-align:center;height:30px;line-height:30px;font-size:12px;color:#666;display:block;text-decoration:none}.passport hr{height:1px;border:0;margin-bottom:28px;background:#bcbcbc}.passport p{padding-bottom:22px}.passport .font-size-14{font-size:14px}.passport .heigh40{height:40px;line-height:40px}.passport .width50{width:50%}.passport .number-of-times{float:right;color:#B8B8B8}.passport .pointer{cursor:pointer}.passport .button{height:40px;padding-top:40px}.passport .button span{display:inline-block;height:100%;line-height:40px;width:130px;font-size:14px;text-align:center;border-radius:2px;background:#FF5F5F;color:#FFF}.passport .button .second{float:right;background:#B7B7B7}.passport .button .width100{width:100%}.passport .font14{font-size:14px}.passport .green{color:#35951B}.passport .red{color:#FF5F5F}.passport .blue{color:#1B9CD6}.passport .gray{color:#A3A3A3!important}.passport .bottom60{padding-bottom:60px}.passport .bottom-auto{padding-bottom:6px}</style>
+    <div class="area out-header">
+     <div class="logo-box fl-l" style="diplay:none">
+      <img style="width:320px" src="./logo1.png"/>
+     </div>
+     <div class="link-box fl-r" style="">
+      <a ui-sref="help"  href="#">帮助中心</a>
+     </div>
+    </div>
+    <div id="loginBody" login-ad="" style="background-color: rgb(147, 231, 81);height:500px;">
+     <div id="theme" class="area out-body" style="background-image: url(&quot;./box1.jpg&quot;);">
+      <a class="login-a" id="adHref" href="javascript:void(0);" target="_blank"></a>
+      <form ng-submit="loginSubmit()" ng-hide="bindOption.showBindFlag" id = "loginForm" class="login-form login-box-shadow ng-pristine ng-valid">
+       <h2>登录</h2>
+       <div class="field f-account">
+        <div class="ipt-box pos-r">
+         <input class="addFocus ipt-account ng-pristine ng-valid" type="text" id = "loginName" placeholder="请输入您的用户名" ng-model="account" ng-change="inputChg('account')" ng-focus="accountFocus()" ng-blur="accountBlur()" />
+         <div class="account-tips pos-a ng-hide" ng-show="accountTipsShow">
+          <!-- ngRepeat: one in accountTipsData track by $index -->
+         </div>
+        </div>
+        <div class="tipHolder"></div>
+       </div>
+       <div class="field f-pwd">
+        <div class="ipt-box">
+         <input class="addFocus ng-pristine ng-valid" type="password" id= "loginPwd" placeholder="请输入您的密码" ng-model="pwd" ng-change="inputChg('password')" />
+        </div>
+        <div class="tipHolder ng-binding" ng-bind="loginTip"></div>
+       </div>
+       <div class="field f-captcha ng-hide" ng-show="needCaptcha">
+        <img class="dp-b" src="anoy/login/cap?1483595212427" title="点击换一张" ng-click="getCaptcha()" />
+        <div class="ipt-box pos-a">
+         <input type="text" maxlength="4" placeholder="请输入验证码" ng-model="captcha" class="ng-pristine ng-valid" />
+        </div>
+        <div class="tipHolder"></div>
+       </div>
+       <div class="field f-forget" style="display:none">
+        <a href="https://passport.sohu.com/forget_password/input_user" target="_blank">忘记密码</a>
+       </div>
+       <div class="field">
+        <input type="button" id="loginBtn" class="btn-login fontFamily" onclick="javascript:login();" value="登 录" />
+       </div>
+       <div class="field f-remember">
+        <label ng-hide="true" class="ng-hide"><input type="checkbox" ng-model="remember" class="ng-pristine ng-valid" /> <span>记住登录状态</span></label>
+       </div>
+       <div class="field f-register">
+        <a href="javascript:void(0);" ng-click="register()">还没有注册？<span class="f-href">现在注册</span></a>
+       </div>
+      </form>
+      <div class="login-form login-box-shadow passport ng-hide" ng-show="bindOption.showBindFlag" id= "errorMsg">
+       <h2>安全提示</h2>
+       <hr />
+       <div ng-hide="bindOption.bindOk" class="">
+        <p class="font-size-14">您的账号可能存在风险，建议绑定手机号</p>
+        <div class="ipt-box">
+         <input class="addFocus ipt-account heigh40 ng-pristine ng-valid" type="text" placeholder="请输入手机号" maxlength="11" ng-model="bindOption.bindPhone" />
+        </div>
+        <div class="heigh40">
+         <span class="pointer blue ng-binding" ng-class="{true: 'gray', false: ''}[bindOption.grayFlag]" ng-click="getPhoneCaptcha()">获取验证码</span> 
+         <span class="number-of-times ng-binding">剩余次</span>
+        </div>
+        <div class="ipt-box width50">
+         <input class="addFocus ipt-account heigh40 ng-pristine ng-valid" type="text" maxlength="6" placeholder="请输入验证码" ng-model="bindOption.msgCaptcha" />
+        </div>
+        <div class="button">
+         <span class="pointer" ng-click="bindPhone()">立即绑定</span> 
+         <span class="second pointer" ng-click="goHomepage()">以后再说</span>
+        </div>
+       </div>
+       <div ng-show="bindOption.bindOk" class="ng-hide">
+        <p class="font14 green">恭喜您，手机号绑定成功！</p>
+        <p class="font14 bottom60 ng-binding">绑定的手机号：</p>
+        <p class="gray bottom-auto">将在3秒后自动进入邮箱</p>
+        <p class="gray bottom-auto">您也可以点击<span class="red">“立即进入邮箱”</span>进行跳转</p>
+        <div class="button width100">
+         <span class="width100 pointer" ng-click="goHomepage()">立即进入邮箱</span>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="area out-footer">
+     <div>
+      Copyright &copy; 2017 ctbri.com . All rights reserved. 中国电信北京研究院 版权所有
+     </div>
+     <div>
+      <span>客服热线： 010-50902244</span>
+      <span class="out-footer-space">客服邮箱：vip@ctbri.com.cn</span>
+     </div>
+    </div>
+    <script type="text/javascript">function resize(){var e=document.getElementById("loginDiv"),i=document.documentElement.clientHeight;i>720&&e&&(e.style.paddingTop=(i-720)/2+"px")}function preload(e){for(i=0;i<e.length;i++)images[i]=new Image,images[i].src=preload.arguments[i]}resize(),window.onresize=function(){setTimeout(function(){resize()},0)};var images=[];preload(["http://mail_wf.cdn.sohusce.com/pc/img/icon.4b4c09cf.png"])</script>
+   </div>
+  </div>
+  <script src="./login/lib.68ebdd0f.js"></script>
+  <script type="text/javascript" src="./login/app.2e5e7247.js"></script>
+  <script type="text/javascript" src="./login/indexCtrl.1f8aeb4f.js"></script>
+  <script type="text/javascript" src="./login/loginCtrl.917e51d7.js"></script>
+  <script type="text/javascript" src="./login/mailAddrRenderService.ed541306.js"></script>
+  <script type="text/javascript" src="./login/writeMailCtrl.68bc1921.js"></script>
+  <script type="text/javascript" src="./login/writeMailService.7e8a472e.js"></script>
+  <script type="text/javascript" src="./login/mailsCtrl.988708dc.js"></script>
+  <script type="text/javascript" src="./login/mailDetailCtrl.169a09f9.js"></script>
+  <script type="text/javascript" src="./login/contacts-ctrl.88a9544f.js"></script>
+  <script type="text/javascript" src="./login/homepageCtrl.7df8e78d.js"></script>
+  <script type="text/javascript" src="./login/contacts-service.e0b7c6da.js"></script>
+  <script type="text/javascript" src="./login/modelAlertService.20f8c23c.js"></script>
+  <script type="text/javascript" src="./login/fileUploadService.4b8af749.js"></script>
+  <script type="text/javascript" src="./login/contacts-directive.70b1f96c.js"></script>
+  <script type="text/javascript" src="./login/mailListDirective.8dcd6cc0.js"></script>
+  <script type="text/javascript" src="./login/mailDirective.d41d8cd9.js"></script>
+  <script type="text/javascript" src="./login/settingCtrl.3ef994fe.js"></script>
+  <script type="text/javascript" src="./login/settingDirective.4dcf3f92.js"></script>
+  <script type="text/javascript" src="./login/settingService.b8b6af42.js"></script>
+  <script type="text/javascript" src="./login//select-directive.9ab036c5.js"></script>
+  <script type="text/javascript" src="./login/toolsbarService.167ee52a.js"></script>
+  <script type="text/javascript" src="./login/timeService.a0cceeaa.js"></script>
+  <script type="text/javascript" src="./login/httpService.b2f850e0.js"></script>
+  <script type="text/javascript" src="./login/mailAccountsCtrl.2abddf35.js"></script>
+  <script type="text/javascript" src="./login/skin-ctrl.659aa5df.js"></script>
+  <script type="text/javascript" src="./login/common.30e594cc.js"></script>
+  <script src="/js/user/jquery.min.js"></script>
+  <script type="text/javascript">
+   $(document).ready(function() {
+	$("#loginBtn").click(function() {
+		var loginName = $("#loginName").val(); // 用户名
+		var loginPwd  = $("#loginPwd").val();  // 密码
+		if(1){
+			$("#loginBtn").attr("disabled","disabled"); 
+			$("#loginBtn").val("登录中...");
+			$.ajax({
+				type : "POST",
+				url : "/login",
+				data: "name="+loginName+"&password="+loginPwd,
+				dataType : "json",
+				success : function(data) {
+					if(data.code==0){
+						window.location.href = ""+data.redirect_uri;
+					}else{
+						$("#loginBtn").removeAttr("disabled"); 
+						$("#loginBtn").val("登  录");
+						$("#errorTip").css('display','');
+						$("#errorMsg").html(data.errorMsg);
+					}
+				}
+			});
+		}else{
+			return false;
+		}
+	});
+   });
+   function login(){
+		var loginName = $("#loginName").val(); // 用户名
+		var loginPwd  = $("#loginPwd").val();  // 密码
+		if(1){
+			$("#loginBtn").attr("disabled","disabled"); 
+			$("#loginBtn").val("登录中...");
+			$.ajax({
+				type : "POST",
+				url : "/login",
+				data: "name="+loginName+"&password="+loginPwd,
+				dataType : "json",
+				success : function(data) {
+					if(data.code==0){
+						window.location.href = ""+data.redirect_uri;
+					}else{
+						$("#loginBtn").removeAttr("disabled"); 
+						$("#loginBtn").val("登  录");
+						$("#errorTip").css('display','');
+						$("#errorMsg").html(data.errorMsg);
+					}
+				}
+			});
+		}else{
+			return false;
+		}
+   }
+   $(document).keyup(function(event){
+	if(event.keyCode ==13){
+		$("#loginBtn").trigger("click");
+	}
+   });
+  </script>
+ </body>
+</html>

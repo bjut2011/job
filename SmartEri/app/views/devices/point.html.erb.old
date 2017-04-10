@@ -1,0 +1,60 @@
+<!DOCTYPE html><html class=''>
+<head><script src='//assets.codepen.io/assets/editor/live/console_runner-d0a557e5cb67f9cd9bbb9673355c7e8e.js'></script><script src='//assets.codepen.io/assets/editor/live/events_runner-21174b4c7273cfddc124acb0876792e0.js'></script><script src='//assets.codepen.io/assets/editor/live/css_live_reload_init-7618a0de08795409d8f6c9ef6805f7b2.js'></script><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="canonical" href="http://codepen.io/kurtschindler/pen/pFzEs" />
+
+
+<style class="cp-pen-styles">.progress-meter .background {
+  fill: #DFEAFD;
+}
+.progress-meter .foreground {
+  fill: #2E7AF9;
+}
+.progress-meter text {
+  font-family: 'Georgia' sans-serif;
+  font-size: 50px;
+}
+.progress-meter .text2 {
+  font-family: 'Georgia' sans-serif;
+  font-size: 20px;
+}
+</style></head><body style="background: -webkit-linear-gradient(45deg, #3F627B, #3F627B);">
+<div class="completion-chart" style="    float: left;margin-top: 60px;margin-left:60px"></div>
+<div class="completion-chart1" style="    float: left;margin-top: 60px;"></div>
+<script src='//assets.codepen.io/assets/common/stopExecutionOnTimeout-53beeb1a007ec32040abaf4c9385ebfc.js'></script><script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script src='http://d3js.org/d3.v3.min.js'></script>
+<script>
+var width = 200, height = 200, twoPi = 2 * Math.PI, progress = 0, total = 100, formatPercent = d3.format('.0%');
+var arc = d3.svg.arc().startAngle(0).innerRadius(70).outerRadius(90);
+var svg = d3.select('.completion-chart').append('svg').attr('width', width).attr('height', height).attr('fill', '#2E7AF9').append('g').attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
+var meter = svg.append('g').attr('class', 'progress-meter');
+meter.append('path').attr('class', 'background').attr('d', arc.endAngle(twoPi));
+var foreground = meter.append('path').attr('class', 'foreground');
+var text = meter.append('text').attr('text-anchor', 'middle');
+var text2 = meter.append('text').attr('y', 40).attr('text-anchor', 'middle').attr('class', 'text2');
+text2.text('广告投放比例');
+var animate = function (percentage) {
+    var i = d3.interpolate(progress, percentage);
+    d3.transition().duration(1200).tween('progress', function () {
+        return function (t) {
+            progress = i(t);
+            foreground.attr('d', arc.endAngle(twoPi * progress));
+            alert(twoPI);
+            text.text(formatPercent(progress));
+        };
+    });
+};
+foreground.attr('d', arc.endAngle(twoPi * 0.75));
+text.text(formatPercent(0.75));
+//animate("0.75");
+
+svg = d3.select('.completion-chart1').append('svg').attr('width', width).attr('height', height).attr('fill', '#2E7AF9').append('g').attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
+meter = svg.append('g').attr('class', 'progress-meter');
+meter.append('path').attr('class', 'background').attr('d', arc.endAngle(twoPi));
+foreground = meter.append('path').attr('class', 'foreground');
+text = meter.append('text').attr('text-anchor', 'middle');
+text2 = meter.append('text').attr('y', 40).attr('text-anchor', 'middle').attr('class', 'text2');
+text2.text('垃圾箱满比例');
+foreground.attr('d', arc.endAngle(twoPi * 0.75));
+text.text(formatPercent(0.75));
+//animate1("0.75");
+//# sourceURL=pen.js
+</script>
+</body></html>

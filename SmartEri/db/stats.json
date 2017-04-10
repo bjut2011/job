@@ -1,0 +1,20 @@
+{
+	"_id" : ObjectId("5872398df0b41e03f8aaf9ac"),
+	"alarm_num" : NumberInt("1"),
+	"full_num" : NumberInt("2"),
+	"open_num" : NumberInt("270"),
+	"send_num" : NumberInt("30"),
+	"today_flow" : NumberInt("1"),
+	"total_flow" : NumberInt("10"),
+	"user_id" : ObjectId("587231e2421aa9437e000001")
+},
+{
+	"_id" : ObjectId("587239aaf0b41e03f8aaf9ae"),
+	"alarm_num" : NumberInt("19"),
+	"full_num" : NumberInt("2317"),
+	"open_num" : NumberInt("12781"),
+	"send_num" : NumberInt("5790"),
+	"today_flow" : NumberInt("98"),
+	"total_flow" : NumberInt("35890"),
+	"user_id" : ObjectId("5757947e421aa9edf8000001")
+},

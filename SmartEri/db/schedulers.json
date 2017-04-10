@@ -1,0 +1,21 @@
+{
+	"_id" : ObjectId("5774c096421aa9bf49000002"),
+	"device_id" : "57713e5f97139646c36bd5e6",
+	"name" : "新昌测试设备:",
+	"sendflag" : NumberInt("1"),
+	"sendval" : "分类垃圾，每个人做起"
+},
+{
+	"_id" : ObjectId("58097df6421aa93778000001"),
+	"device_id" : "57e4949f421aa955a8000003",
+	"name" : "神腾测试1:",
+	"sendflag" : NumberInt("1"),
+	"sendval" : "AA002A0001000001010000010801000100000000000010B9E3B6ABCAA1C9EEDBDACAD0B1A6B0B20D1955"
+},
+{
+	"_id" : ObjectId("5872e48efc5f540c2f000001"),
+	"device_id" : "584a44bb421aa93776000003",
+	"name" : "中国电信北京研究院:",
+	"sendflag" : NumberInt("1"),
+	"sendval" : "欢迎使用智能垃圾桶，垃圾分类从我做起！"
+},

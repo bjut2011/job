@@ -1,0 +1,456 @@
+{
+	"_id" : ObjectId("58a8fc3c971396664c4596c1"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf05"),
+	"tag" : "未满",
+	"time" : ISODate("2017-02-19T10:00:28.000+08:00"),
+	"update_time" : 1487469628,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596c2"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf07"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596c3"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf09"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596c4"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf0b"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596c5"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf0d"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596c6"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf0f"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596c7"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf11"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596c8"),
+	"sensor_id" : ObjectId("585962a497139689db625c94"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596c9"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf13"),
+	"tag" : "今天开门次数",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596ca"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf15"),
+	"tag" : "今天70%启动压缩装置次数",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596cb"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf17"),
+	"tag" : "今天90%启动压缩装置次数",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596cc"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf19"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "24.76"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596cd"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf1b"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596ce"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf1d"),
+	"tag" : "未充电",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596cf"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf1f"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596d0"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf21"),
+	"tag" : "无效",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596d1"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf23"),
+	"tag" : "无效",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596d2"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf25"),
+	"tag" : "无效",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc3d971396664c4596d3"),
+	"sensor_id" : ObjectId("584a645497139613f33ebf27"),
+	"tag" : "有效",
+	"time" : ISODate("2017-02-19T10:00:29.000+08:00"),
+	"update_time" : 1487469629,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596d4"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8b9"),
+	"tag" : "未满",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596d5"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8bb"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596d6"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8bd"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596d7"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8bf"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596d8"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8c1"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596d9"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8c3"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596da"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8c5"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596db"),
+	"sensor_id" : ObjectId("585775009713961b625b0e88"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596dc"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8c7"),
+	"tag" : "今天开门次数",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "3.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596dd"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8c9"),
+	"tag" : "今天70%启动压缩装置次数",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596de"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8cb"),
+	"tag" : "今天90%启动压缩装置次数",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596df"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8cd"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "26.92"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596e0"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8cf"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596e1"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8d1"),
+	"tag" : "未充电",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596e2"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8d3"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596e3"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8d5"),
+	"tag" : "无效",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596e4"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8d7"),
+	"tag" : "无效",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596e5"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8d9"),
+	"tag" : "无效",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fc49971396664c4596e6"),
+	"sensor_id" : ObjectId("57e49642971396a19c39c8db"),
+	"tag" : "有效",
+	"time" : ISODate("2017-02-19T10:00:41.000+08:00"),
+	"update_time" : 1487469641,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596e7"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0c7"),
+	"tag" : "未满",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596e8"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0c9"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596e9"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0cb"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596ea"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0cd"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596eb"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0cf"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596ec"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0d1"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596ed"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0d3"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596ee"),
+	"sensor_id" : ObjectId("5858bcc697139689db624953"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "1.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596ef"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0d5"),
+	"tag" : "今天开门次数",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596f0"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0d7"),
+	"tag" : "今天70%启动压缩装置次数",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596f1"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0d9"),
+	"tag" : "今天90%启动压缩装置次数",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596f2"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0db"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "25.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596f3"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0dd"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596f4"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0df"),
+	"tag" : "未充电",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596f5"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0e1"),
+	"tag" : "正常",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596f6"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0e3"),
+	"tag" : "无效",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596f7"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0e5"),
+	"tag" : "无效",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596f8"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0e7"),
+	"tag" : "无效",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "0.00"
+},
+{
+	"_id" : ObjectId("58a8fccf971396664c4596f9"),
+	"sensor_id" : ObjectId("584a70ab97139613f33ec0e9"),
+	"tag" : "有效",
+	"time" : ISODate("2017-02-19T10:02:55.000+08:00"),
+	"update_time" : 1487469775,
+	"value" : "1.00"
+},
